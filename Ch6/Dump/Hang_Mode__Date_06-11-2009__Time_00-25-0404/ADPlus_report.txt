@@ -1,0 +1,30 @@
+ADPlus Version: 6.03.002
+ADPlus Version Date: 02/21/2006
+OS Version: 5.1
+OS Build: 2600
+DateTimeStamp: Date_06-11-2009__Time_00-25-0404
+ADPlus was run on: GREEHOME-VM
+Debuggers Installation Directory: C:\Program Files\Debugging Tools for Windows
+ 
+Command line arguments used were: 
+-hang -pn MyApp.exe 
+Script engine Version: 5.6.8820
+   WARNING!  An '_NT_SYMBOL_PATH' environment variable is not set, as a result ADPlus will be forced to use 'export' symbols (if present) to resolve function names in the stack trace information for each thread listed in the log file for the processes being debugged.  To resolve this warning, please copy the appropriate symbols to a directory on the server and then create an environment variable with a name of '_NT_SYMBOL_PATH' and a value containing the path to the proper symbols (i.e. c:\winnt\symbols) before running ADPlus in quick or crash modes again.  NOTE:  After creating the '_NT_SYMBOL_PATH' system environment variable you will need to close the current command shell and open a new one before running ADPlus again.
+Selected debugger: cdb.exe
+Output Directory: C:\Program Files\Debugging Tools for Windows\Hang_Mode__Date_06-11-2009__Time_00-25-0404
+ 
+ 
+g_Debug_Log = True
+g_CheckFreeSpace = True
+ ------ Current Actions for Hang Mode ----
+  Name: FullDump
+  Name: Stacks
+  Name: LoadedModules
+  Name: MatchingSymbols
+  Name: Heap
+  Name: Handle
+  Name: Dlls
+  Name: Locks
+  Name: ThreadUsage
+Starting to attach the debugger to each process
+Attaching to 2000 - MYAPP.EXE

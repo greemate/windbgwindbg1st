@@ -1,0 +1,323 @@
+Opened log file 'C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__Date_06-11-2009__Time_00-09-1313.log'
+0:001> * Created with ADPlus Version 6.03.002    Version Date 02/21/2006
+0:001> *
+0:001> * --------- ADPlus  was started at: -----------
+0:001> .time
+Debug session time: Thu Jun 11 00:09:32.231 2009 (GMT+9)
+System Uptime: 0 days 0:06:44.892
+Process Uptime: 0 days 0:03:18.205
+  Kernel time: 0 days 0:00:00.450
+  User time: 0 days 0:00:00.030
+0:001> * ------------------------------------------------------
+0:001> *
+0:001> *
+0:001> *
+0:001> * --------- ADPlus 6.03.002 was run on server: --------
+0:001> * Server name: GREEHOME-VM
+0:001> * ------------------------------------------------------
+0:001> *
+0:001> *
+0:001> *
+0:001> * ------ OS Version Information displayed below. -------
+0:001> !version
+No export version found
+0:001> * ------------------------------------------------------
+0:001> *
+0:001> *
+0:001> *
+0:001> * 
+0:001> * ------ Current Actions for Exceptions ----
+0:001> *  AccessViolation [av]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  InvalidHandle [ch]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  IllegalInstruction [ii]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  IntegerDivide [dz]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  FloatingDivide [c000008e]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  IntegerOverflow [iov]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  InvalidLockSequence [lsq]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  StackOverflow [sov]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  CPlusPlusEH [eh]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  UnknownException [*]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  NET_CLR [clr]       return: GN GN
+0:001> *      1st chance: VOID 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  CONTRL_C_OR_Debug_Break [bpe]       return: Q GN
+0:001> *      1st chance: Log;Time;EventLog;Stacks;LoadedModules;MatchingSymbols;MiniDump !locks;!runaway
+0:001> *      2nd chance:  
+0:001> *  Wake_Debugger [wkd]       return: Q GN
+0:001> *      1st chance: Log;Time;EventLog;Stacks;LoadedModules;MatchingSymbols;MiniDump !locks;!runaway
+0:001> *      2nd chance:  
+0:001> *  DLL_Load [ld]       return: GN GN
+0:001> *      1st chance: Log 
+0:001> *      2nd chance: Log 
+0:001> *  DLL_UnLoad [ud]       return: GN GN
+0:001> *      1st chance: Log 
+0:001> *      2nd chance: Log 
+0:001> *  Process_Shut_Down [epr]       return: VOID VOID
+0:001> *      1st chance: Log;Time;EventLog;Stacks;FullDump !runaway
+0:001> *      2nd chance:  
+0:001> *  Application_hang [aph]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  Ctl_C_Console_app [cce]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  Data_misaligned [dm]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  Guard_page_violation [gp]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  In_page_IO_error [ip]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  Invalid_system_call [isc]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> *  Stack_buffer_overflow [sbo]       return: GN GN
+0:001> *      1st chance: Log;Time;Stack;MiniDump 
+0:001> *      2nd chance: Log;Time;Stack;FullDump;EventLog 
+0:001> * 
+0:001> * ------ Last Script Command: Q
+0:001> * ------ Current symbol path ----
+0:001> .sympath
+Symbol search path is: <empty>
+0:001> .echotimestamps
+Event timestamps are now enabled
+0:001> sxe -c @".echo ---;.echo --- 1st chance AccessViolation exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_AccessViolation_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_AccessViolation__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance AccessViolation exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_AccessViolation_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_AccessViolation__full.dmp;!elog_str ADPlus detected a 2nd chance AccessViolation exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" av
+0:001> sxe -c @".echo ---;.echo --- 1st chance InvalidHandle exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_InvalidHandle_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_InvalidHandle__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance InvalidHandle exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_InvalidHandle_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_InvalidHandle__full.dmp;!elog_str ADPlus detected a 2nd chance InvalidHandle exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" ch
+0:001> sxe -c @".echo ---;.echo --- 1st chance IllegalInstruction exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_IllegalInstruction_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_IllegalInstruction__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance IllegalInstruction exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_IllegalInstruction_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_IllegalInstruction__full.dmp;!elog_str ADPlus detected a 2nd chance IllegalInstruction exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" ii
+0:001> sxe -c @".echo ---;.echo --- 1st chance IntegerDivide exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_IntegerDivide_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_IntegerDivide__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance IntegerDivide exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_IntegerDivide_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_IntegerDivide__full.dmp;!elog_str ADPlus detected a 2nd chance IntegerDivide exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" dz
+0:001> sxe -c @".echo ---;.echo --- 1st chance FloatingDivide exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_FloatingDivide_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_FloatingDivide__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance FloatingDivide exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_FloatingDivide_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_FloatingDivide__full.dmp;!elog_str ADPlus detected a 2nd chance FloatingDivide exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" c000008e
+0:001> sxe -c @".echo ---;.echo --- 1st chance IntegerOverflow exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_IntegerOverflow_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_IntegerOverflow__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance IntegerOverflow exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_IntegerOverflow_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_IntegerOverflow__full.dmp;!elog_str ADPlus detected a 2nd chance IntegerOverflow exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" iov
+0:001> sxe -c @".echo ---;.echo --- 1st chance InvalidLockSequence exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_InvalidLockSequence_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_InvalidLockSequence__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance InvalidLockSequence exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_InvalidLockSequence_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_InvalidLockSequence__full.dmp;!elog_str ADPlus detected a 2nd chance InvalidLockSequence exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" lsq
+0:001> sxe -c @".echo ---;.echo --- 1st chance StackOverflow exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_StackOverflow_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_StackOverflow__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance StackOverflow exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_StackOverflow_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_StackOverflow__full.dmp;!elog_str ADPlus detected a 2nd chance StackOverflow exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" sov
+0:001> sxe -c @".echo ---;.echo --- 1st chance CPlusPlusEH exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo; GN" -c2 @".echo ---;.echo --- 2nd chance CPlusPlusEH exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_CPlusPlusEH_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_CPlusPlusEH__full.dmp;!elog_str ADPlus detected a 2nd chance CPlusPlusEH exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" eh
+0:001> sxe -c @".echo ---;.echo --- 1st chance UnknownException exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo; GN" -c2 @".echo ---;.echo --- 2nd chance UnknownException exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_UnknownException_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_UnknownException__full.dmp;!elog_str ADPlus detected a 2nd chance UnknownException exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" *
+0:001> sxi -c2 @".echo ---;.echo --- 2nd chance NET_CLR exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_NET_CLR_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_NET_CLR__full.dmp;!elog_str ADPlus detected a 2nd chance NET_CLR exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" clr
+0:001> sxi -c @".echo ---;.echo --- 1st chance CONTRL_C_OR_Debug_Break exception ----;.echo ---------------------------------------------------------------;.echo CTRL-C was pressed to stop debugging this process!;.echo When PageHeap is in use this exception can be an internal exception;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;!elog_str ADPlus detected a 1st chance CONTRL_C_OR_Debug_Break exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time EventLog Stacks LoadedModules MatchingSymbols MiniDump. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313;.echo;.echo All thread stacks below ---;~*kvn250;.echo;.echo;.echo Listing loaded modules ---;lmv;.echo;.echo Modules with matching symbols ---;lml;.dump -u /mdi /c 1st_chance_CONTRL_C_OR_Debug_Break_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_CONTRL_C_OR_Debug_Break__mini.dmp;.echo;.echo Executing custom commands; !locks;!runaway; Q" bpe
+0:001> sxi -c @".echo ---;.echo --- 1st chance Wake_Debugger exception ----;.echo ---------------------------------------------------------------;.echo This was added for cases whereby the CTRL-C / debug break exception does not work and the debugger reverts to a non-invasive attach;.echo CTRL-C was pressed to stop debugging this process!;.echo When PageHeap is in use this exception can be an internal exception;.echo Exiting the debugger!!!;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;!elog_str ADPlus detected a 1st chance Wake_Debugger exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time EventLog Stacks LoadedModules MatchingSymbols MiniDump. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313;.echo;.echo All thread stacks below ---;~*kvn250;.echo;.echo;.echo Listing loaded modules ---;lmv;.echo;.echo Modules with matching symbols ---;lml;.dump -u /mdi /c 1st_chance_Wake_Debugger_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Wake_Debugger__mini.dmp;.echo;.echo Executing custom commands; !locks;!runaway; Q" wkd
+0:001> sxe -c @".echo ---;.echo --- 1st chance DLL_Load exception ----;.echo ---------------------------------------------------------------; GN" -c2 @".echo ---;.echo --- 2nd chance DLL_Load exception ----;.echo ---------------------------------------------------------------; GN" ld
+Second-chance command for specific event ignored
+0:001> sxn -c @".echo ---;.echo --- 1st chance DLL_UnLoad exception ----;.echo ---------------------------------------------------------------; GN" -c2 @".echo ---;.echo --- 2nd chance DLL_UnLoad exception ----;.echo ---------------------------------------------------------------; GN" ud
+Second-chance command for specific event ignored
+0:001> sxi -c @".echo ---;.echo --- 1st chance Process_Shut_Down exception ----;.echo ---------------------------------------------------------------;.echo This process is shutting down!;.echo This can happen for the following reasons;.echo 1) Someone killed the process with Task Manager or the kill command;.echo 2.) If this process is an MTS or COM+ server package, it could be;.echo *    exiting because an MTS/COM+ server package idle limit was reached.;.echo 3.) If this process is an MTS or COM+ server package,;.echo *    someone may have shutdown the package via the MTS Explorer or;.echo *    Component Services MMC snap-in.;.echo 4.) If this process is an MTS or COM+ server package,;.echo *    MTS or COM+ could be shutting down the process because an internal;.echo *    error was detected in the process (MTS/COM+ fail fast condition).;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;!elog_str ADPlus detected a 1st chance Process_Shut_Down exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time EventLog Stacks FullDump. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313;.echo;.echo All thread stacks below ---;~*kvn250;.echo;.dump -u /ma /c 1st_chance_Process_Shut_Down_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Process_Shut_Down__full.dmp;.echo;.echo Executing custom commands; !runaway; " epr
+0:001> sxe -c @".echo ---;.echo --- 1st chance Application_hang exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_Application_hang_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Application_hang__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance Application_hang exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_Application_hang_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_Application_hang__full.dmp;!elog_str ADPlus detected a 2nd chance Application_hang exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" aph
+0:001> sxe -c @".echo ---;.echo --- 1st chance Ctl_C_Console_app exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_Ctl_C_Console_app_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Ctl_C_Console_app__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance Ctl_C_Console_app exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_Ctl_C_Console_app_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_Ctl_C_Console_app__full.dmp;!elog_str ADPlus detected a 2nd chance Ctl_C_Console_app exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" cce
+0:001> sxe -c @".echo ---;.echo --- 1st chance Data_misaligned exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_Data_misaligned_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Data_misaligned__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance Data_misaligned exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_Data_misaligned_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_Data_misaligned__full.dmp;!elog_str ADPlus detected a 2nd chance Data_misaligned exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" dm
+0:001> sxe -c @".echo ---;.echo --- 1st chance Guard_page_violation exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_Guard_page_violation_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Guard_page_violation__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance Guard_page_violation exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_Guard_page_violation_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_Guard_page_violation__full.dmp;!elog_str ADPlus detected a 2nd chance Guard_page_violation exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" gp
+0:001> sxe -c @".echo ---;.echo --- 1st chance In_page_IO_error exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_In_page_IO_error_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_In_page_IO_error__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance In_page_IO_error exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_In_page_IO_error_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_In_page_IO_error__full.dmp;!elog_str ADPlus detected a 2nd chance In_page_IO_error exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" ip
+0:001> sxe -c @".echo ---;.echo --- 1st chance Invalid_system_call exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_Invalid_system_call_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Invalid_system_call__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance Invalid_system_call exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_Invalid_system_call_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_Invalid_system_call__full.dmp;!elog_str ADPlus detected a 2nd chance Invalid_system_call exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" isc
+0:001> sxe -c @".echo ---;.echo --- 1st chance Stack_buffer_overflow exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /mdi /c 1st_chance_Stack_buffer_overflow_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Stack_buffer_overflow__mini.dmp; GN" -c2 @".echo ---;.echo --- 2nd chance Stack_buffer_overflow exception ----;.echo ---------------------------------------------------------------;.echo;.echo Occurrence happened at: ;.time;.echo;.echo Faulting stack below ---;~#kvn250;.echo;.dump -u /ma /c 2nd_chance_Stack_buffer_overflow_exception_in_MYAPP.EXE_running_on_GREEHOME-VM C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_Stack_buffer_overflow__full.dmp;!elog_str ADPlus detected a 2nd chance Stack_buffer_overflow exception in process MYAPP.EXE and has taken the following actions at the time of the crash: Log Time Stack FullDump EventLog. The output directory is C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313; GN" sbo
+0:001> *
+0:001> * ADPlus is monitoring: MYAPP.EXE
+0:001> * for  1st chance and 2nd chance exceptions as configured above.
+0:001> * To change ADPlus configuration please refer to ADPlus.Doc. This file can be found
+0:001> * in the same folder as ADPlus.vbs
+0:001> *
+0:001> g
+Thu Jun 11 00:09:44.980 2009 (GMT+9): (6f4.6e8): Access violation - code c0000005 (first chance)
+---
+--- 1st chance AccessViolation exception ----
+---------------------------------------------------------------
+
+Occurrence happened at:
+Debug session time: Thu Jun 11 00:09:44.980 2009 (GMT+9)
+System Uptime: 0 days 0:06:57.640
+Process Uptime: 0 days 0:03:30.953
+  Kernel time: 0 days 0:00:00.821
+  User time: 0 days 0:00:00.130
+
+Faulting stack below ---
+*** WARNING: Unable to verify checksum for Z:\WinDbgCD\Ch2\Bin\MyApp.exe
+ # ChildEBP RetAddr  Args to Child              
+00 0012f8d4 00401c06 00000000 0042d1a0 0012fea0 MyApp!CMyAppDlg::MyStrCpy+0x40 (CONV: thiscall)
+01 0012f8f4 0041371b 00424778 00000111 0012f934 MyApp!CMyAppDlg::OnButtonUserCrash+0x44 (CONV: thiscall)
+02 0012f904 004138a8 0012fea0 000003f9 00000000 MyApp!_AfxDispatchCmdMsg+0x7e (CONV: stdcall)
+03 0012f934 00413c98 000003f9 00000000 00000000 MyApp!CCmdTarget::OnCmdMsg+0x104 (CONV: thiscall)
+04 0012f958 0041618e 000003f9 00000000 00000000 MyApp!CDialog::OnCmdMsg+0x1b (CONV: thiscall)
+05 0012f9a8 00415bc4 00000000 00010128 0012fea0 MyApp!CWnd::OnCommand+0x51 (CONV: thiscall)
+06 0012fa24 00415b76 00000111 000003f9 00010128 MyApp!CWnd::OnWndMsg+0x2c (CONV: thiscall)
+07 0012fa44 00414a3c 00000111 000003f9 00010128 MyApp!CWnd::WindowProc+0x22 (CONV: thiscall)
+08 0012faa4 00414c58 0012fea0 00000000 00000111 MyApp!AfxCallWndProc+0x90 (CONV: stdcall)
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\WINDOWS\system32\USER32.dll - 
+09 0012fac4 77cf8734 000300e2 00000111 000003f9 MyApp!AfxWndProc+0x34 (CONV: stdcall)
+WARNING: Stack unwind information not available. Following frames may be wrong.
+0a 0012faf0 77cf8816 00414c24 000300e2 00000111 USER32!GetDC+0x6d
+0b 0012fb58 77cfb89b 00000000 00414c24 000300e2 USER32!GetDC+0x14f
+0c 0012fb94 77cfb903 00639938 00622b08 000003f9 USER32!GetParent+0x16c
+0d 0012fbb4 77d2fd1d 000300e2 00000111 000003f9 USER32!SendMessageW+0x49
+0e 0012fbcc 77d26561 0063b570 00000000 0063b570 USER32!CreateMDIWindowA+0x1bd
+0f 0012fbe8 77d06df4 00148ec0 00000001 00000000 USER32!DeregisterShellHookWindow+0x62d9
+10 0012fc6c 77d1b04a 0063b570 00000202 00000000 USER32!IsDlgButtonChecked+0x107f
+11 0012fc8c 77cf8734 00010128 00000202 00000000 USER32!SoftModalMessageBox+0xda3
+12 0012fcb8 77cf8816 77d1affe 00010128 00000202 USER32!GetDC+0x6d
+13 0012fd20 77cf89cd 00000000 77d1affe 00010128 USER32!GetDC+0x14f
+14 0012fd80 77cf8a10 00430b28 00000000 0012fdb4 USER32!GetWindowLongW+0x127
+15 0012fd90 77d0d99d 00430b28 00430b28 00430b30 USER32!DispatchMessageW+0xf
+16 0012fdb4 77d1c69b 000300e2 0063b570 00430b28 USER32!IsDialogMessageW+0xdb
+17 0012fdd4 00417ef5 000300e2 00430b28 0012fea0 USER32!IsDialogMessage+0x4a
+18 0012fde4 004175dc 00430b28 00413c78 00430b28 MyApp!CWnd::IsDialogMessageA+0x2f (FPO: [1,0,1]) (CONV: thiscall)
+19 0012fdec 00413c78 00430b28 00430b28 000300e2 MyApp!CWnd::PreTranslateInput+0x29 (FPO: [1,0,0]) (CONV: thiscall)
+1a 0012fdfc 00416ac6 00430b28 00430b28 0012fea0 MyApp!CDialog::PreTranslateMessage+0x94 (FPO: [1,0,2]) (CONV: thiscall)
+1b 0012fe0c 0041338d 000300e2 00430b28 00430b28 MyApp!CWnd::WalkPreTranslateTree+0x21 (FPO: [2,0,2]) (CONV: stdcall)
+1c 0012fe20 00413640 00430b28 00000000 0012fea0 MyApp!CWinThread::PreTranslateMessage+0x2a (FPO: [1,0,2]) (CONV: thiscall)
+1d 0012fe30 004176bd 00000000 0012fea0 0012fe90 MyApp!CWinThread::PumpMessage+0x28 (FPO: [0,0,2]) (CONV: thiscall)
+1e 0012fe54 004142db 00000004 00430af8 00430af8 MyApp!CWnd::RunModalLoop+0xda (FPO: [Uses EBP] [1,4,4]) (CONV: thiscall)
+1f 0012fe90 004010b8 00430af8 00000002 00424a90 MyApp!CDialog::DoModal+0xe1 (CONV: thiscall)
+20 0012ff10 0041b61e 00310038 00000000 7ffdf000 MyApp!CMyAppApp::InitInstance+0x48 (CONV: thiscall)
+21 0012ff20 00411e5c 00400000 00000000 00142380 MyApp!AfxWinMain+0x47 (FPO: [4,0,3]) (CONV: stdcall)
+22 0012ff34 004033bb 00400000 00000000 00142380 MyApp!WinMain+0x15 (FPO: [4,0,0]) (CONV: stdcall)
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\WINDOWS\system32\kernel32.dll - 
+23 0012ffc0 7c816fe7 00310038 00380038 7ffdf000 MyApp!WinMainCRTStartup+0xe0
+24 0012fff0 00000000 004032db 00000000 78746341 kernel32!RegisterWaitForInputIdle+0x49
+
+Creating C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_AccessViolation__mini_031C_2009-06-11_00-09-45-360_06F4.dmp - mini user dump
+Dump successfully written
+Thu Jun 11 00:09:46.362 2009 (GMT+9): (6f4.6e8): Access violation - code c0000005 (!!! second chance !!!)
+---
+--- 2nd chance AccessViolation exception ----
+---------------------------------------------------------------
+
+Occurrence happened at:
+Debug session time: Thu Jun 11 00:09:46.362 2009 (GMT+9)
+System Uptime: 0 days 0:06:59.022
+Process Uptime: 0 days 0:03:32.335
+  Kernel time: 0 days 0:00:00.841
+  User time: 0 days 0:00:00.130
+
+Faulting stack below ---
+ # ChildEBP RetAddr  Args to Child              
+00 0012f8d4 00401c06 00000000 0042d1a0 0012fea0 MyApp!CMyAppDlg::MyStrCpy+0x40 (CONV: thiscall)
+01 0012f8f4 0041371b 00424778 00000111 0012f934 MyApp!CMyAppDlg::OnButtonUserCrash+0x44 (CONV: thiscall)
+02 0012f904 004138a8 0012fea0 000003f9 00000000 MyApp!_AfxDispatchCmdMsg+0x7e (CONV: stdcall)
+03 0012f934 00413c98 000003f9 00000000 00000000 MyApp!CCmdTarget::OnCmdMsg+0x104 (CONV: thiscall)
+04 0012f958 0041618e 000003f9 00000000 00000000 MyApp!CDialog::OnCmdMsg+0x1b (CONV: thiscall)
+05 0012f9a8 00415bc4 00000000 00010128 0012fea0 MyApp!CWnd::OnCommand+0x51 (CONV: thiscall)
+06 0012fa24 00415b76 00000111 000003f9 00010128 MyApp!CWnd::OnWndMsg+0x2c (CONV: thiscall)
+07 0012fa44 00414a3c 00000111 000003f9 00010128 MyApp!CWnd::WindowProc+0x22 (CONV: thiscall)
+08 0012faa4 00414c58 0012fea0 00000000 00000111 MyApp!AfxCallWndProc+0x90 (CONV: stdcall)
+09 0012fac4 77cf8734 000300e2 00000111 000003f9 MyApp!AfxWndProc+0x34 (CONV: stdcall)
+WARNING: Stack unwind information not available. Following frames may be wrong.
+0a 0012faf0 77cf8816 00414c24 000300e2 00000111 USER32!GetDC+0x6d
+0b 0012fb58 77cfb89b 00000000 00414c24 000300e2 USER32!GetDC+0x14f
+0c 0012fb94 77cfb903 00639938 00622b08 000003f9 USER32!GetParent+0x16c
+0d 0012fbb4 77d2fd1d 000300e2 00000111 000003f9 USER32!SendMessageW+0x49
+0e 0012fbcc 77d26561 0063b570 00000000 0063b570 USER32!CreateMDIWindowA+0x1bd
+0f 0012fbe8 77d06df4 00148ec0 00000001 00000000 USER32!DeregisterShellHookWindow+0x62d9
+10 0012fc6c 77d1b04a 0063b570 00000202 00000000 USER32!IsDlgButtonChecked+0x107f
+11 0012fc8c 77cf8734 00010128 00000202 00000000 USER32!SoftModalMessageBox+0xda3
+12 0012fcb8 77cf8816 77d1affe 00010128 00000202 USER32!GetDC+0x6d
+13 0012fd20 77cf89cd 00000000 77d1affe 00010128 USER32!GetDC+0x14f
+14 0012fd80 77cf8a10 00430b28 00000000 0012fdb4 USER32!GetWindowLongW+0x127
+15 0012fd90 77d0d99d 00430b28 00430b28 00430b30 USER32!DispatchMessageW+0xf
+16 0012fdb4 77d1c69b 000300e2 0063b570 00430b28 USER32!IsDialogMessageW+0xdb
+17 0012fdd4 00417ef5 000300e2 00430b28 0012fea0 USER32!IsDialogMessage+0x4a
+18 0012fde4 004175dc 00430b28 00413c78 00430b28 MyApp!CWnd::IsDialogMessageA+0x2f (FPO: [1,0,1]) (CONV: thiscall)
+19 0012fdec 00413c78 00430b28 00430b28 000300e2 MyApp!CWnd::PreTranslateInput+0x29 (FPO: [1,0,0]) (CONV: thiscall)
+1a 0012fdfc 00416ac6 00430b28 00430b28 0012fea0 MyApp!CDialog::PreTranslateMessage+0x94 (FPO: [1,0,2]) (CONV: thiscall)
+1b 0012fe0c 0041338d 000300e2 00430b28 00430b28 MyApp!CWnd::WalkPreTranslateTree+0x21 (FPO: [2,0,2]) (CONV: stdcall)
+1c 0012fe20 00413640 00430b28 00000000 0012fea0 MyApp!CWinThread::PreTranslateMessage+0x2a (FPO: [1,0,2]) (CONV: thiscall)
+1d 0012fe30 004176bd 00000000 0012fea0 0012fe90 MyApp!CWinThread::PumpMessage+0x28 (FPO: [0,0,2]) (CONV: thiscall)
+1e 0012fe54 004142db 00000004 00430af8 00430af8 MyApp!CWnd::RunModalLoop+0xda (FPO: [Uses EBP] [1,4,4]) (CONV: thiscall)
+1f 0012fe90 004010b8 00430af8 00000002 00424a90 MyApp!CDialog::DoModal+0xe1 (CONV: thiscall)
+20 0012ff10 0041b61e 00310038 00000000 7ffdf000 MyApp!CMyAppApp::InitInstance+0x48 (CONV: thiscall)
+21 0012ff20 00411e5c 00400000 00000000 00142380 MyApp!AfxWinMain+0x47 (FPO: [4,0,3]) (CONV: stdcall)
+22 0012ff34 004033bb 00400000 00000000 00142380 MyApp!WinMain+0x15 (FPO: [4,0,0]) (CONV: stdcall)
+23 0012ffc0 7c816fe7 00310038 00380038 7ffdf000 MyApp!WinMainCRTStartup+0xe0
+24 0012fff0 00000000 004032db 00000000 78746341 kernel32!RegisterWaitForInputIdle+0x49
+
+Creating C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__2nd_chance_AccessViolation__full_031C_2009-06-11_00-09-46-392_06F4.dmp - mini user dump
+Dump successfully written
+---
+--- 1st chance Process_Shut_Down exception ----
+---------------------------------------------------------------
+This process is shutting down!
+This can happen for the following reasons
+1) Someone killed the process with Task Manager or the kill command
+2.) If this process is an MTS or COM+ server package, it could be
+*    exiting because an MTS/COM+ server package idle limit was reached.
+3.) If this process is an MTS or COM+ server package,
+*    someone may have shutdown the package via the MTS Explorer or
+*    Component Services MMC snap-in.
+4.) If this process is an MTS or COM+ server package,
+*    MTS or COM+ could be shutting down the process because an internal
+*    error was detected in the process (MTS/COM+ fail fast condition).
+---------------------------------------------------------------
+
+Occurrence happened at:
+Debug session time: Thu Jun 11 00:09:49.616 2009 (GMT+9)
+System Uptime: 0 days 0:07:02.277
+Process Uptime: 0 days 0:03:35.590
+  Kernel time: 0 days 0:00:01.061
+  User time: 0 days 0:00:00.130
+
+All thread stacks below ---
+
+.  0  Id: 6f4.6e8 Suspend: 0 Teb: 7ffde000 Unfrozen
+ # ChildEBP RetAddr  Args to Child              
+00 0012f8d4 00401c06 00000000 0042d1a0 0012fea0 MyApp!CMyAppDlg::MyStrCpy+0x40 (CONV: thiscall)
+01 0012f8f4 0041371b 00424778 00000111 0012f934 MyApp!CMyAppDlg::OnButtonUserCrash+0x44 (CONV: thiscall)
+02 0012f904 004138a8 0012fea0 000003f9 00000000 MyApp!_AfxDispatchCmdMsg+0x7e (CONV: stdcall)
+03 0012f934 00413c98 000003f9 00000000 00000000 MyApp!CCmdTarget::OnCmdMsg+0x104 (CONV: thiscall)
+04 0012f958 0041618e 000003f9 00000000 00000000 MyApp!CDialog::OnCmdMsg+0x1b (CONV: thiscall)
+05 0012f9a8 00415bc4 00000000 00010128 0012fea0 MyApp!CWnd::OnCommand+0x51 (CONV: thiscall)
+06 0012fa24 00415b76 00000111 000003f9 00010128 MyApp!CWnd::OnWndMsg+0x2c (CONV: thiscall)
+07 0012fa44 00414a3c 00000111 000003f9 00010128 MyApp!CWnd::WindowProc+0x22 (CONV: thiscall)
+08 0012faa4 00414c58 0012fea0 00000000 00000111 MyApp!AfxCallWndProc+0x90 (CONV: stdcall)
+09 0012fac4 77cf8734 000300e2 00000111 000003f9 MyApp!AfxWndProc+0x34 (CONV: stdcall)
+WARNING: Stack unwind information not available. Following frames may be wrong.
+0a 0012faf0 77cf8816 00414c24 000300e2 00000111 USER32!GetDC+0x6d
+0b 0012fb58 77cfb89b 00000000 00414c24 000300e2 USER32!GetDC+0x14f
+0c 0012fb94 77cfb903 00639938 00622b08 000003f9 USER32!GetParent+0x16c
+0d 0012fbb4 77d2fd1d 000300e2 00000111 000003f9 USER32!SendMessageW+0x49
+0e 0012fbcc 77d26561 0063b570 00000000 0063b570 USER32!CreateMDIWindowA+0x1bd
+0f 0012fbe8 77d06df4 00148ec0 00000001 00000000 USER32!DeregisterShellHookWindow+0x62d9
+10 0012fc6c 77d1b04a 0063b570 00000202 00000000 USER32!IsDlgButtonChecked+0x107f
+11 0012fc8c 77cf8734 00010128 00000202 00000000 USER32!SoftModalMessageBox+0xda3
+12 0012fcb8 77cf8816 77d1affe 00010128 00000202 USER32!GetDC+0x6d
+13 0012fd20 77cf89cd 00000000 77d1affe 00010128 USER32!GetDC+0x14f
+14 0012fd80 77cf8a10 00430b28 00000000 0012fdb4 USER32!GetWindowLongW+0x127
+15 0012fd90 77d0d99d 00430b28 00430b28 00430b30 USER32!DispatchMessageW+0xf
+16 0012fdb4 77d1c69b 000300e2 0063b570 00430b28 USER32!IsDialogMessageW+0xdb
+17 0012fdd4 00417ef5 000300e2 00430b28 0012fea0 USER32!IsDialogMessage+0x4a
+18 0012fde4 004175dc 00430b28 00413c78 00430b28 MyApp!CWnd::IsDialogMessageA+0x2f (FPO: [1,0,1]) (CONV: thiscall)
+19 0012fdec 00413c78 00430b28 00430b28 000300e2 MyApp!CWnd::PreTranslateInput+0x29 (FPO: [1,0,0]) (CONV: thiscall)
+1a 0012fdfc 00416ac6 00430b28 00430b28 0012fea0 MyApp!CDialog::PreTranslateMessage+0x94 (FPO: [1,0,2]) (CONV: thiscall)
+1b 0012fe0c 0041338d 000300e2 00430b28 00430b28 MyApp!CWnd::WalkPreTranslateTree+0x21 (FPO: [2,0,2]) (CONV: stdcall)
+1c 0012fe20 00413640 00430b28 00000000 0012fea0 MyApp!CWinThread::PreTranslateMessage+0x2a (FPO: [1,0,2]) (CONV: thiscall)
+1d 0012fe30 004176bd 00000000 0012fea0 0012fe90 MyApp!CWinThread::PumpMessage+0x28 (FPO: [0,0,2]) (CONV: thiscall)
+1e 0012fe54 004142db 00000004 00430af8 00430af8 MyApp!CWnd::RunModalLoop+0xda (FPO: [Uses EBP] [1,4,4]) (CONV: thiscall)
+1f 0012fe90 004010b8 00430af8 00000002 00424a90 MyApp!CDialog::DoModal+0xe1 (CONV: thiscall)
+20 0012ff10 0041b61e 00310038 00000000 7ffdf000 MyApp!CMyAppApp::InitInstance+0x48 (CONV: thiscall)
+21 0012ff20 00411e5c 00400000 00000000 00142380 MyApp!AfxWinMain+0x47 (FPO: [4,0,3]) (CONV: stdcall)
+22 0012ff34 004033bb 00400000 00000000 00142380 MyApp!WinMain+0x15 (FPO: [4,0,0]) (CONV: stdcall)
+23 0012ffc0 7c816fe7 00310038 00380038 7ffdf000 MyApp!WinMainCRTStartup+0xe0
+24 0012fff0 00000000 004032db 00000000 78746341 kernel32!RegisterWaitForInputIdle+0x49
+
+Creating C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\PID-1780__MYAPP.EXE__1st_chance_Process_Shut_Down__full_031C_2009-06-11_00-09-49-647_06F4.dmp - mini user dump
+Dump successfully written
+
+Executing custom commands
+ User Mode Time
+  Thread       Time
+   0:6e8       0 days 0:00:00.120

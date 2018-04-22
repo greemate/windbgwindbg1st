@@ -1,0 +1,56 @@
+ 0 32    0 System Process  
+     Command Line: 
+ 0 32    4 System          
+     Command Line: 
+ 0 32  312 smss.exe        
+     Command Line: \SystemRoot\System32\smss.exe
+ 0 32  376 csrss.exe       Title: 
+     Command Line: C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+ 0 32  400 winlogon.exe    
+     Command Line: winlogon.exe
+ 0 32  444 services.exe    Svcs:  Eventlog,PlugPlay
+     Command Line: C:\WINDOWS\system32\services.exe
+ 0 32  456 lsass.exe       Svcs:  PolicyAgent,ProtectedStorage,SamSs
+     Command Line: C:\WINDOWS\system32\lsass.exe
+ 0 32  608 svchost.exe     Svcs:  DcomLaunch,TermService
+     Command Line: C:\WINDOWS\system32\svchost -k DcomLaunch
+ 0 32  756 svchost.exe     Svcs:  RpcSs
+     Command Line: C:\WINDOWS\system32\svchost -k rpcss
+ 0 32  844 svchost.exe     Svcs:  AudioSrv,CryptSvc,Dhcp,dmserver,ERSvc,EventSystem,FastUserSwitchingCompatibility,helpsvc,lanmanserver,lanmanworkstation,Netman,Nla,Schedule,seclogon,SENS,SharedAccess,ShellHWDetection,srservice,Themes,TrkWks,W32Time,winmgmt,wscsvc,wuauserv,WZCSVC
+     Command Line: C:\WINDOWS\System32\svchost.exe -k netsvcs
+ 0 32  948 svchost.exe     Svcs:  Dnscache
+     Command Line: C:\WINDOWS\system32\svchost.exe -k NetworkService
+ 0 32 1100 svchost.exe     Svcs:  Alerter,LmHosts,RemoteRegistry,SSDPSRV
+     Command Line: C:\WINDOWS\system32\svchost.exe -k LocalService
+ 0 32 1132 explorer.exe    Title: Program Manager
+     Command Line: C:\WINDOWS\Explorer.EXE
+ 0 32 1288 spoolsv.exe     Svcs:  Spooler
+     Command Line: C:\WINDOWS\system32\spoolsv.exe
+ 0 32 1488 vmusrvc.exe     Title: {54CFAC36-3337-4953-8132-F884EED417BF}
+     Command Line: "C:\WINDOWS\VMADD\VMUSrvc.exe" 
+ 0 32 1508 ctfmon.exe      Title: 
+     Command Line: "C:\WINDOWS\system32\ctfmon.exe" 
+ 0 32 1624 svchost.exe     Svcs:  WebClient
+     Command Line: C:\WINDOWS\system32\svchost.exe -k LocalService
+ 0 32 1664 vmsrvc.exe      Svcs:  1-vmsrvc
+     Command Line: C:\WINDOWS\VMADD\VMSRVC.EXE
+ 0 32 1880 vpcmap.exe      Svcs:  VPCMap
+     Command Line: C:\WINDOWS\system32\VPCMap.exe
+ 0 32  724 alg.exe         Svcs:  ALG
+     Command Line: C:\WINDOWS\System32\alg.exe
+ 0 32  976 wscntfy.exe     Title: 
+     Command Line: C:\WINDOWS\system32\wscntfy.exe
+ 0 32 1128 wuauclt.exe     Title: 
+     Command Line: "C:\WINDOWS\system32\wuauclt.exe"
+ 0 32 1780 MyApp.exe       Title: MyApp
+     Command Line: "Z:\WinDbgCD\Ch2\Bin\MyApp.exe" 
+ 0 32 1784 cmd.exe         Title: 명령 프롬프트 - adplus -crash -pn MyApp.exe
+     Command Line: "C:\WINDOWS\system32\cmd.exe" 
+ 0 32 1848 conime.exe      Title: 
+     Command Line: C:\WINDOWS\system32\conime.exe
+ 0 32  124 cscript.exe     Title: 
+     Command Line: "C:\WINDOWS\System32\CScript.exe" //nologo "C:\Program Files\Debugging Tools for Windows\adplus.vbs"  -crash -pn MyApp.exe
+ 0 32 1952 cmd.exe         Title: C:\WINDOWS\system32\cmd.exe
+     Command Line: "C:\WINDOWS\system32\cmd.exe" /c tlist.exe -v >"C:\Program Files\Debugging Tools for Windows\Crash_Mode__Date_06-11-2009__Time_00-09-1313\Process_List.txt"
+ 0 32  500 tlist.exe       
+     Command Line: tlist.exe -v 

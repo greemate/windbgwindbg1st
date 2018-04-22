@@ -1,0 +1,650 @@
+Opened log file 'C:\Program Files\Debugging Tools for Windows\Hang_Mode__Date_06-11-2009__Time_00-25-0404\PID-2000__MYAPP.EXE__Date_06-11-2009__Time_00-25-0404.log'
+0:000> * Created with ADPlus Version 6.03.002    Version Date 02/21/2006
+0:000> *
+0:000> * --------- ADPlus  was started at: -----------
+0:000> .time
+Debug session time: Thu Jun 11 00:25:07.316 2009 (GMT+9)
+System Uptime: 0 days 0:22:19.976
+Process Uptime: 0 days 0:13:26.399
+  Kernel time: 0 days 0:00:01.051
+  User time: 0 days 0:13:01.403
+0:000> * ------------------------------------------------------
+0:000> *
+0:000> *
+0:000> *
+0:000> * --------- ADPlus 6.03.002 was run on server: --------
+0:000> * Server name: GREEHOME-VM
+0:000> * ------------------------------------------------------
+0:000> *
+0:000> *
+0:000> *
+0:000> * ------ OS Version Information displayed below. -------
+0:000> !version
+No export version found
+0:000> * ------------------------------------------------------
+0:000> *
+0:000> *
+0:000> *
+0:000> * 
+0:000> * ------ Current Actions for Hang Mode ----
+0:000> *  Name: FullDump
+0:000> *  Name: Stacks
+0:000> *  Name: LoadedModules
+0:000> *  Name: MatchingSymbols
+0:000> *  Name: Heap
+0:000> *  Name: Handle
+0:000> *  Name: Dlls
+0:000> *  Name: Locks
+0:000> *  Name: ThreadUsage
+0:000> * ------ Current symbol path ----
+0:000> .sympath
+Symbol search path is: <empty>
+0:000> *
+0:000> * ------ Executing FullDump ------
+0:000> .dump -u /ma /c "Full dump in Hang Mode for MYAPP.EXE_running_on_GREEHOME-VM" C:\Program Files\Debugging Tools for Windows\Hang_Mode__Date_06-11-2009__Time_00-25-0404\PID-2000__MYAPP.EXE__full.dmp
+Creating C:\Program Files\Debugging Tools for Windows\Hang_Mode__Date_06-11-2009__Time_00-25-0404\PID-2000__MYAPP.EXE__full_03A4_2009-06-11_00-25-07-316_07D0.dmp - mini user dump
+Dump successfully written
+0:000> *
+0:000> * ------ Thread stack backtrace information ------
+0:000> ~*kb250
+
+.  0  Id: 7d0.7c4 Suspend: 1 Teb: 7ffdd000 Unfrozen
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\WINDOWS\system32\ntdll.dll - 
+ChildEBP RetAddr  Args to Child              
+0012f814 00401c4a 0012f828 0042d1ac 0012fea0 MyApp!CMyAppDlg::MyStrCpy+0x40
+0012f8f4 0041371b 00424778 00000111 0012f934 MyApp!CMyAppDlg::OnButtonHang+0x3e
+0012f904 004138a8 0012fea0 000003fa 00000000 MyApp!_AfxDispatchCmdMsg+0x7e
+0012f934 00413c98 000003fa 00000000 00000000 MyApp!CCmdTarget::OnCmdMsg+0x104
+0012f958 0041618e 000003fa 00000000 00000000 MyApp!CDialog::OnCmdMsg+0x1b
+0012f9a8 00415bc4 00000000 00020102 0012fea0 MyApp!CWnd::OnCommand+0x51
+0012fa24 00415b76 00000111 000003fa 00020102 MyApp!CWnd::OnWndMsg+0x2c
+0012fa44 00414a3c 00000111 000003fa 00020102 MyApp!CWnd::WindowProc+0x22
+0012faa4 00414c58 0012fea0 00000000 00000111 MyApp!AfxCallWndProc+0x90
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\WINDOWS\system32\USER32.dll - 
+0012fac4 77cf8734 0006014e 00000111 000003fa MyApp!AfxWndProc+0x34
+WARNING: Stack unwind information not available. Following frames may be wrong.
+0012faf0 77cf8816 00414c24 0006014e 00000111 USER32!GetDC+0x6d
+0012fb58 77cfb89b 00000000 00414c24 0006014e USER32!GetDC+0x14f
+0012fb94 77cfb903 006395a0 00622778 000003fa USER32!GetParent+0x16c
+0012fbb4 77d2fd1d 0006014e 00000111 000003fa USER32!SendMessageW+0x49
+0012fbcc 77d26561 0063b2d0 00000000 0063b2d0 USER32!CreateMDIWindowA+0x1bd
+0012fbe8 77d06df4 00148ee0 00000001 00000000 USER32!DeregisterShellHookWindow+0x62d9
+0012fc6c 77d1b04a 0063b2d0 00000202 00000000 USER32!IsDlgButtonChecked+0x107f
+0012fc8c 77cf8734 00020102 00000202 00000000 USER32!SoftModalMessageBox+0xda3
+0012fcb8 77cf8816 77d1affe 00020102 00000202 USER32!GetDC+0x6d
+0012fd20 77cf89cd 00000000 77d1affe 00020102 USER32!GetDC+0x14f
+0012fd80 77cf8a10 00430b28 00000000 0012fdb4 USER32!GetWindowLongW+0x127
+0012fd90 77d0d99d 00430b28 00430b28 00430b30 USER32!DispatchMessageW+0xf
+0012fdb4 77d1c69b 0006014e 0063b2d0 00430b28 USER32!IsDialogMessageW+0xdb
+0012fdd4 00417ef5 0006014e 00430b28 0012fea0 USER32!IsDialogMessage+0x4a
+0012fde4 004175dc 00430b28 00413c78 00430b28 MyApp!CWnd::IsDialogMessageA+0x2f
+0012fdec 00413c78 00430b28 00430b28 0006014e MyApp!CWnd::PreTranslateInput+0x29
+0012fdfc 00416ac6 00430b28 00430b28 0012fea0 MyApp!CDialog::PreTranslateMessage+0x94
+0012fe0c 0041338d 0006014e 00430b28 00430b28 MyApp!CWnd::WalkPreTranslateTree+0x21
+0012fe20 00413640 00430b28 00000000 0012fea0 MyApp!CWinThread::PreTranslateMessage+0x2a
+0012fe30 004176bd 00000000 0012fea0 0012fe90 MyApp!CWinThread::PumpMessage+0x28
+0012fe54 004142db 00000004 00430af8 00430af8 MyApp!CWnd::RunModalLoop+0xda
+0012fe90 004010b8 00430af8 00000002 00424a90 MyApp!CDialog::DoModal+0xe1
+0012ff10 0041b61e 00310038 00000000 7ffde000 MyApp!CMyAppApp::InitInstance+0x48
+0012ff20 00411e5c 00400000 00000000 00142380 MyApp!AfxWinMain+0x47
+0012ff34 004033bb 00400000 00000000 00142380 MyApp!WinMain+0x15
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\WINDOWS\system32\kernel32.dll - 
+0012ffc0 7c816fe7 00310038 00380038 7ffde000 MyApp!WinMainCRTStartup+0xe0
+0012fff0 00000000 004032db 00000000 78746341 kernel32!RegisterWaitForInputIdle+0x49
+0:000> *
+0:000> * ------ Loaded modules ------
+0:000> lmv
+start    end        module name
+00400000 00437000   MyApp    C (private pdb symbols)  Z:\WinDbgCD\Ch2\Bin\MyApp.pdb
+    Loaded symbol image file: Z:\WinDbgCD\Ch2\Bin\MyApp.exe
+    Mapped memory image file: Z:\WinDbgCD\Ch2\Bin\MyApp.exe
+    Image path: Z:\WinDbgCD\Ch2\Bin\MyApp.exe
+    Image name: MyApp.exe
+    Timestamp:        Tue Jun 02 23:41:45 2009 (4A253A29)
+    CheckSum:         00000000
+    ImageSize:        00037000
+    File version:     1.0.0.1
+    Product version:  1.0.0.1
+    File flags:       0 (Mask 3F)
+    File OS:          4 Unknown Win32
+    File type:        1.0 App
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      
+    ProductName:      MyApp 응용 프�    InternalName:     MyApp
+    OriginalFilename: MyApp.EXE
+    ProductVersion:   1, 0, 0, 1
+    FileVersion:      1, 0, 0, 1
+    PrivateBuild:     1, 0, 0, 1
+    SpecialBuild:     1, 0, 0, 1
+    FileDescription:  MyApp MFC 응용 프�    LegalCopyright:   Copyright (C) 2008
+    LegalTrademarks:  Copyright (C) 2008
+    Comments:         Copyright (C) 2008
+4b540000 4b55a000   imekr61    (deferred)             
+    Image path: C:\WINDOWS\system32\imekr61.ime
+    Image name: imekr61.ime
+    Timestamp:        Wed Oct 19 02:58:00 2005 (435537A8)
+    CheckSum:         0002559C
+    ImageSize:        0001A000
+    File version:     6.1.2600.3
+    Product version:  6.1.2600.3
+    File flags:       A (Mask 3F) Pre-release Private
+    File OS:          4 Unknown Win32
+    File type:        3.B Driver
+    File date:        00000000.00000000
+    Translations:     0412.03b5
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft Korean IME 2002
+    InternalName:     Korean IME 2000
+    OriginalFilename: imekr.ime
+    ProductVersion:   6.1.2600.3
+    FileVersion:      6.1.2600.3
+    FileDescription:  Microsoft Korean IME 2002
+    LegalCopyright:   Copyright (C) 1995-2000 Microsoft Corporation. All rights reserved.
+    LegalTrademarks:  Microsoft (R) is a registered trademark of Microsoft Corporation. Windows(TM) is a trademark of Microsoft Corporation
+5a480000 5a4b8000   uxtheme    (deferred)             
+    Image path: C:\WINDOWS\system32\uxtheme.dll
+    Image name: uxtheme.dll
+    Timestamp:        Wed Aug 04 16:52:52 2004 (411095D4)
+    CheckSum:         0004189A
+    ImageSize:        00038000
+    File version:     6.0.2900.2180
+    Product version:  6.0.2900.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     UxTheme.dll
+    OriginalFilename: UxTheme.dll
+    ProductVersion:   6.00.2900.2180
+    FileVersion:      6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Microsoft UxTheme Library
+    LegalCopyright:   Copyright (C) Microsoft Corporation. 1981-2001
+5c820000 5c8ba000   COMCTL32   (deferred)             
+    Image path: C:\WINDOWS\system32\COMCTL32.dll
+    Image name: COMCTL32.dll
+    Timestamp:        Sat Aug 26 00:49:50 2006 (44EF1C1E)
+    CheckSum:         000A16BA
+    ImageSize:        0009A000
+    File version:     5.82.2900.2982
+    Product version:  6.0.2900.2982
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     COMCTL32
+    OriginalFilename: COMCTL32.DLL
+    ProductVersion:   6.00.2900.2982
+    FileVersion:      5.82 (xpsp.060825-0040)
+    FileDescription:  Common Controls Library
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.62340000 62349000   LPK        (deferred)             
+    Image path: C:\WINDOWS\system32\LPK.DLL
+    Image name: LPK.DLL
+    Timestamp:        Wed Aug 04 16:51:48 2004 (41109594)
+    CheckSum:         0000EEAE
+    ImageSize:        00009000
+    File version:     5.1.2600.2180
+    Product version:  5.1.2600.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     LanguagePack
+    OriginalFilename: LanguagePack
+    ProductVersion:   5.1.2600.2180
+    FileVersion:      5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Language Pack
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.72f50000 72f76000   WINSPOOL   (deferred)             
+    Image path: C:\WINDOWS\system32\WINSPOOL.DRV
+    Image name: WINSPOOL.DRV
+    Timestamp:        Wed Aug 04 16:53:00 2004 (411095DC)
+    CheckSum:         0002718E
+    ImageSize:        00026000
+    File version:     5.1.2600.2180
+    Product version:  5.1.2600.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        3.1 Driver
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft(R) Windows(R) Operating System
+    InternalName:     winspool.drv
+    OriginalFilename: winspool.drv
+    ProductVersion:   5.1.2600.2180
+    FileVersion:      5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Windows Spooler Driver
+    LegalCopyright:   (C) Microsoft Corporation. All rights reserved.
+73f80000 73feb000   USP10      (deferred)             
+    Image path: C:\WINDOWS\system32\USP10.dll
+    Image name: USP10.dll
+    Timestamp:        Wed Aug 04 16:52:51 2004 (411095D3)
+    CheckSum:         000678A1
+    ImageSize:        0006B000
+    File version:     1.420.2600.2180
+    Product version:  1.420.2600.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft(R) Uniscribe Unicode script processor
+    InternalName:     Uniscribe
+    OriginalFilename: Uniscribe
+    ProductVersion:   1.0420.2600.2180
+    FileVersion:      1.0420.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Uniscribe Unicode script processor
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.74660000 746ab000   MSCTF      (deferred)             
+    Image path: C:\WINDOWS\system32\MSCTF.dll
+    Image name: MSCTF.dll
+    Timestamp:        Wed Aug 04 16:52:52 2004 (411095D4)
+    CheckSum:         00049E94
+    ImageSize:        0004B000
+    File version:     5.1.2600.2180
+    Product version:  5.1.2600.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     MSCTF
+    OriginalFilename: MSCTF.DLL
+    ProductVersion:   5.1.2600.2180
+    FileVersion:      5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  MSCTF Server DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.75110000 7513e000   msctfime   (deferred)             
+    Image path: C:\WINDOWS\system32\msctfime.ime
+    Image name: msctfime.ime
+    Timestamp:        Wed Aug 04 16:52:53 2004 (411095D5)
+    CheckSum:         0002C26C
+    ImageSize:        0002E000
+    File version:     5.1.2600.2180
+    Product version:  5.1.2600.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        3.B Driver
+    File date:        00000000.00000000
+    Translations:     0000.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     MSCTFIME
+    OriginalFilename: MSCTFIME.IME
+    ProductVersion:   5.1.2600.2180
+    FileVersion:      5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Microsoft Text Frame Work Service IME
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.762e0000 762fd000   IMM32      (deferred)             
+    Image path: C:\WINDOWS\system32\IMM32.DLL
+    Image name: IMM32.DLL
+    Timestamp:        Wed Aug 04 16:51:54 2004 (4110959A)
+    CheckSum:         00022F14
+    ImageSize:        0001D000
+    File version:     5.1.2600.2180
+    Product version:  5.1.2600.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     imm32
+    OriginalFilename: imm32
+    ProductVersion:   5.1.2600.2180
+    FileVersion:      5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Windows XP IMM32 API Client DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.76300000 76347000   comdlg32   (deferred)             
+    Image path: C:\WINDOWS\system32\comdlg32.dll
+    Image name: comdlg32.dll
+    Timestamp:        Wed Aug 04 16:51:36 2004 (41109588)
+    CheckSum:         0004DE3D
+    ImageSize:        00047000
+    File version:     6.0.2900.2180
+    Product version:  6.0.2900.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     comdlg32
+    OriginalFilename: comdlg32.dll
+    ProductVersion:   6.00.2900.2180
+    FileVersion:      6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Common Dialogs DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.76970000 76aad000   ole32      (deferred)             
+    Image path: C:\WINDOWS\system32\ole32.dll
+    Image name: ole32.dll
+    Timestamp:        Tue Jul 26 13:39:48 2005 (42E5BE94)
+    CheckSum:         0013BA8D
+    ImageSize:        0013D000
+    File version:     5.1.2600.2726
+    Product version:  5.1.2600.2726
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     OLE32.DLL
+    OriginalFilename: OLE32.DLL
+    ProductVersion:   5.1.2600.2726
+    FileVersion:      5.1.2600.2726 (xpsp_sp2_gdr.050725-1528)
+    FileDescription:  Microsoft OLE for Windows
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.770d0000 7715b000   oleaut32   (deferred)             
+    Image path: C:\WINDOWS\system32\oleaut32.dll
+    Image name: oleaut32.dll
+    Timestamp:        Wed Dec 05 03:39:56 2007 (47559EFC)
+    CheckSum:         0008B459
+    ImageSize:        0008B000
+    File version:     5.1.2600.3266
+    Product version:  5.1.2600.3266
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04e4
+    CompanyName:      Microsoft Corporation
+    InternalName:     OLEAUT32.DLL
+    ProductVersion:   5.1.2600.3266
+    FileVersion:      5.1.2600.3266
+    LegalCopyright:   Copyright ⓒ Microsoft Corp. 1993-2001.    LegalTrademarks:  Microsoft® is a registered trademark of Microsoft Corporation. Windows® is a registered trademark of Microsoft Corporation77160000 77263000   comctl32_77160000   (deferred)             
+    Image path: C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll
+    Image name: comctl32.dll
+    Timestamp:        Sat Aug 26 00:49:48 2006 (44EF1C1C)
+    CheckSum:         00102797
+    ImageSize:        00103000
+    File version:     6.0.2900.2982
+    Product version:  6.0.2900.2982
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     comctl32
+    OriginalFilename: comctl32.DLL
+    ProductVersion:   6.00.2900.2982
+    FileVersion:      6.0 (xpsp.060825-0040)
+    FileDescription:  User Experience Controls Library
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.77bc0000 77c18000   msvcrt     (deferred)             
+    Image path: C:\WINDOWS\system32\msvcrt.dll
+    Image name: msvcrt.dll
+    Timestamp:        Wed Aug 04 16:54:36 2004 (4110963C)
+    CheckSum:         0005836A
+    ImageSize:        00058000
+    File version:     7.0.2600.2180
+    Product version:  6.1.8638.2180
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        1.0 App
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     msvcrt.dll
+    OriginalFilename: msvcrt.dll
+    ProductVersion:   7.0.2600.2180
+    FileVersion:      7.0.2600.2180 (xpsp_sp2_rtm.040803-2158)
+    FileDescription:  Windows NT CRT DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.77cf0000 77d7f000   USER32     (export symbols)       C:\WINDOWS\system32\USER32.dll
+    Loaded symbol image file: C:\WINDOWS\system32\USER32.dll
+    Image path: C:\WINDOWS\system32\USER32.dll
+    Image name: USER32.dll
+    Timestamp:        Fri Mar 09 00:37:53 2007 (45F02DD1)
+    CheckSum:         000996A8
+    ImageSize:        0008F000
+    File version:     5.1.2600.3099
+    Product version:  5.1.2600.3099
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     user32
+    OriginalFilename: user32
+    ProductVersion:   5.1.2600.3099
+    FileVersion:      5.1.2600.3099 (xpsp_sp2_gdr.070308-0222)
+    FileDescription:  Windows XP USER API Client DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.77d80000 77e12000   RPCRT4     (deferred)             
+    Image path: C:\WINDOWS\system32\RPCRT4.dll
+    Image name: RPCRT4.dll
+    Timestamp:        Mon Jul 09 22:09:42 2007 (46923396)
+    CheckSum:         00098971
+    ImageSize:        00092000
+    File version:     5.1.2600.3173
+    Product version:  5.1.2600.3173
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     rpcrt4.dll
+    OriginalFilename: rpcrt4.dll
+    ProductVersion:   5.1.2600.3173
+    FileVersion:      5.1.2600.3173 (xpsp_sp2_gdr.070709-0051)
+    FileDescription:  Remote Procedure Call Runtime
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.77e20000 77e68000   GDI32      (deferred)             
+    Image path: C:\WINDOWS\system32\GDI32.dll
+    Image name: GDI32.dll
+    Timestamp:        Thu Oct 23 21:59:34 2008 (49007536)
+    CheckSum:         0004B224
+    ImageSize:        00048000
+    File version:     5.1.2600.3466
+    Product version:  5.1.2600.3466
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     gdi32
+    OriginalFilename: gdi32
+    ProductVersion:   5.1.2600.3466
+    FileVersion:      5.1.2600.3466 (xpsp_sp2_gdr.081022-1254)
+    FileDescription:  GDI Client DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.77e70000 77ee6000   SHLWAPI    (deferred)             
+    Image path: C:\WINDOWS\system32\SHLWAPI.dll
+    Image name: SHLWAPI.dll
+    Timestamp:        Fri Feb 20 17:29:51 2009 (499E69FF)
+    CheckSum:         00073B50
+    ImageSize:        00076000
+    File version:     6.0.2900.3527
+    Product version:  6.0.2900.3527
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     SHLWAPI
+    OriginalFilename: SHLWAPI.DLL
+    ProductVersion:   6.00.2900.3527
+    FileVersion:      6.00.2900.3527 (xpsp_sp2_gdr.090219-1253)
+    FileDescription:  Shell Light-weight Utility Library
+    LegalCopyright:   Copyright (C) Microsoft Corporation. 1981-2001
+77ef0000 77f01000   Secur32    (deferred)             
+    Image path: C:\WINDOWS\system32\Secur32.dll
+    Image name: Secur32.dll
+    Timestamp:        Wed Feb 04 05:10:02 2009 (4988A49A)
+    CheckSum:         00012527
+    ImageSize:        00011000
+    File version:     5.1.2600.3518
+    Product version:  5.1.2600.3518
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     security.dll
+    OriginalFilename: security.dll
+    ProductVersion:   5.1.2600.3518
+    FileVersion:      5.1.2600.3518 (xpsp_sp2_gdr.090203-1250)
+    FileDescription:  Security Support Provider Interface
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.77f50000 77ff8000   ADVAPI32   (deferred)             
+    Image path: C:\WINDOWS\system32\ADVAPI32.dll
+    Image name: ADVAPI32.dll
+    Timestamp:        Mon Feb 09 19:18:56 2009 (49900310)
+    CheckSum:         000B2151
+    ImageSize:        000A8000
+    File version:     5.1.2600.3520
+    Product version:  5.1.2600.3520
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     advapi32.dll
+    OriginalFilename: advapi32.dll
+    ProductVersion:   5.1.2600.3520
+    FileVersion:      5.1.2600.3520 (xpsp_sp2_gdr.090206-1233)
+    FileDescription:  Advanced Windows 32 Base API
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.7c800000 7c92f000   kernel32   (export symbols)       C:\WINDOWS\system32\kernel32.dll
+    Loaded symbol image file: C:\WINDOWS\system32\kernel32.dll
+    Image path: C:\WINDOWS\system32\kernel32.dll
+    Image name: kernel32.dll
+    Timestamp:        Sat Mar 21 23:18:57 2009 (49C4F751)
+    CheckSum:         00130D66
+    ImageSize:        0012F000
+    File version:     5.1.2600.3541
+    Product version:  5.1.2600.3541
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0409.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     kernel32
+    OriginalFilename: kernel32
+    ProductVersion:   5.1.2600.3541
+    FileVersion:      5.1.2600.3541 (xpsp_sp2_gdr.090321-1320)
+    FileDescription:  Windows NT BASE API Client DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.7c930000 7c9ce000   ntdll      (export symbols)       C:\WINDOWS\system32\ntdll.dll
+    Loaded symbol image file: C:\WINDOWS\system32\ntdll.dll
+    Image path: C:\WINDOWS\system32\ntdll.dll
+    Image name: ntdll.dll
+    Timestamp:        Mon Feb 09 19:18:55 2009 (4990030F)
+    CheckSum:         000A533E
+    ImageSize:        0009E000
+    File version:     5.1.2600.3520
+    Product version:  5.1.2600.3520
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     ntdll.dll
+    OriginalFilename: ntdll.dll
+    ProductVersion:   5.1.2600.3520
+    FileVersion:      5.1.2600.3520 (xpsp_sp2_gdr.090206-1233)
+    FileDescription:  NT Layer DLL
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.7d5a0000 7dd9c000   SHELL32    (deferred)             
+    Image path: C:\WINDOWS\system32\SHELL32.dll
+    Image name: SHELL32.dll
+    Timestamp:        Thu Jul 03 22:14:41 2008 (486CD0C1)
+    CheckSum:         007FCBD9
+    ImageSize:        007FC000
+    File version:     6.0.2900.3402
+    Product version:  6.0.2900.3402
+    File flags:       0 (Mask 3F)
+    File OS:          40004 NT Win32
+    File type:        2.0 Dll
+    File date:        00000000.00000000
+    Translations:     0412.04b0
+    CompanyName:      Microsoft Corporation
+    ProductName:      Microsoft® Windows® Operating Syste    InternalName:     SHELL32
+    OriginalFilename: SHELL32.DLL
+    ProductVersion:   6.00.2900.3402
+    FileVersion:      6.00.2900.3402 (xpsp_sp2_gdr.080702-1233)
+    FileDescription:  Windows Shell Common Dll
+    LegalCopyright:   ⓒ Microsoft Corporation. All rights reserved.
+Unloaded modules:
+77bb0000 77bb8000   version.dll
+    Timestamp: Wed Aug 04 16:52:49 2004 (411095D1)
+    Checksum:  0000DD5A
+0:000> *
+0:000> * ------ Loaded modules with matching symbols ------
+0:000> lml
+start    end        module name
+00400000 00437000   MyApp    C (private pdb symbols)  Z:\WinDbgCD\Ch2\Bin\MyApp.pdb
+77cf0000 77d7f000   USER32     (export symbols)       C:\WINDOWS\system32\USER32.dll
+7c800000 7c92f000   kernel32   (export symbols)       C:\WINDOWS\system32\kernel32.dll
+7c930000 7c9ce000   ntdll      (export symbols)       C:\WINDOWS\system32\ntdll.dll
+0:000> *
+0:000> * ------ Heap information ------
+0:000> !heap 0 -k
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Your debugger is not using the correct symbols                 ***
+***                                                                   ***
+***    In order for this command to work properly, your symbol path   ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: ntdll!_HEAP_ENTRY                             ***
+***                                                                   ***
+*************************************************************************
+Invalid type information
+0:000> *
+0:000> * ------ Handle information ------
+0:000> !handle 0 0
+39 Handles
+Type           	Count
+Event          	1
+Section        	7
+File           	3
+Port           	2
+Directory      	3
+Mutant         	9
+WindowStation  	2
+Semaphore      	3
+Key            	7
+Desktop        	1
+KeyedEvent     	1
+0:000> *
+0:000> * ------ DLL Information ------
+0:000> !dlls
+*************************************************************************
+***                                                                   ***
+***                                                                   ***
+***    Your debugger is not using the correct symbols                 ***
+***                                                                   ***
+***    In order for this command to work properly, your symbol path   ***
+***    must point to .pdb files that have full type information.      ***
+***                                                                   ***
+***    Certain .pdb files (such as the public OS symbols) do not      ***
+***    contain the required information.  Contact the group that      ***
+***    provided you with these symbols if you need this command to    ***
+***    work.                                                          ***
+***                                                                   ***
+***    Type referenced: nt!_PEB                                       ***
+***                                                                   ***
+*************************************************************************
+    Unable to read nt!_PEB_LDR_DATA type at 00000000
+0:000> *
+0:000> * ------ Critical section information ------
+0:000> !locks
+NTSDEXTS: Unable to resolve ntdll!RtlCriticalSectionList
+NTSDEXTS: Please check your symbols
+0:000> *
+0:000> * ------ Thread CPU usage information ------
+0:000> !runaway
+ User Mode Time
+  Thread       Time
+   0:7c4       0 days 0:13:01.393
+0:000> .logclose
+Closing open log file C:\Program Files\Debugging Tools for Windows\Hang_Mode__Date_06-11-2009__Time_00-25-0404\PID-2000__MYAPP.EXE__Date_06-11-2009__Time_00-25-0404.log
