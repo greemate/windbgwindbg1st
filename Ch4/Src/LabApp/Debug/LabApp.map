@@ -1,0 +1,941 @@
+ LabApp
+
+ Timestamp is 4a2b5531 (Sun Jun 07 14:50:41 2009)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000032e0H .text                   CODE
+ 0001:000032e0 000000f0H .text$x                 CODE
+ 0001:000033d0 00000111H .text$yc                CODE
+ 0001:000034f0 0000001aH .text$yd                CODE
+ 0002:00000000 0000038cH .idata$5                DATA
+ 0002:0000038c 00000004H .CRT$XCA                DATA
+ 0002:00000390 00000004H .CRT$XCAA               DATA
+ 0002:00000394 00000004H .CRT$XCL                DATA
+ 0002:00000398 0000000cH .CRT$XCU                DATA
+ 0002:000003a4 00000004H .CRT$XCZ                DATA
+ 0002:000003a8 00000004H .CRT$XIA                DATA
+ 0002:000003ac 00000004H .CRT$XIAA               DATA
+ 0002:000003b0 00000004H .CRT$XIY                DATA
+ 0002:000003b4 00000004H .CRT$XIZ                DATA
+ 0002:000003c0 00000b50H .rdata                  DATA
+ 0002:00000f10 00000051H .rdata$debug            DATA
+ 0002:00000f64 000002fcH .rdata$r                DATA
+ 0002:00001260 00000018H .rdata$sxdata           DATA
+ 0002:00001278 00000004H .rtc$IAA                DATA
+ 0002:0000127c 00000004H .rtc$IZZ                DATA
+ 0002:00001280 00000004H .rtc$TAA                DATA
+ 0002:00001284 00000004H .rtc$TZZ                DATA
+ 0002:00001288 00000184H .xdata$x                DATA
+ 0002:0000140c 00000004H ATL$__a                 DATA
+ 0002:00001410 00000004H ATL$__z                 DATA
+ 0002:00001414 00000064H .idata$2                DATA
+ 0002:00001478 00000014H .idata$3                DATA
+ 0002:0000148c 0000038cH .idata$4                DATA
+ 0002:00001818 000004a0H .idata$6                DATA
+ 0002:00001cb8 00000000H .edata                  DATA
+ 0003:00000000 000001c0H .data                   DATA
+ 0003:000001c0 00000460H .bss                    DATA
+ 0004:00000000 000001d8H .rsrc$01                DATA
+ 0004:000001e0 00000aa8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000006       ___safe_se_handler_count   00000006     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ?GetMessageMap@CLabAppApp@@MBEPBUAFX_MSGMAP@@XZ 00401000 f   LabApp.obj
+ 0001:00000020       ?GetThisMessageMap@CLabAppApp@@KGPBUAFX_MSGMAP@@XZ 00401020 f   LabApp.obj
+ 0001:00000040       ??0CLabAppApp@@QAE@XZ      00401040 f   LabApp.obj
+ 0001:00000070       ??_ECLabAppApp@@UAEPAXI@Z  00401070 f i LabApp.obj
+ 0001:00000070       ??_GCLabAppApp@@UAEPAXI@Z  00401070 f i LabApp.obj
+ 0001:000000b0       ??1CLabAppApp@@UAE@XZ      004010b0 f i LabApp.obj
+ 0001:000000d0       ?InitInstance@CLabAppApp@@UAEHXZ 004010d0 f   LabApp.obj
+ 0001:00000180       ??1CLabAppDlg@@UAE@XZ      00401180 f i LabApp.obj
+ 0001:000001a0       ??0CAboutDlg@@QAE@XZ       004011a0 f   LabAppDlg.obj
+ 0001:000001d0       ??_GCAboutDlg@@UAEPAXI@Z   004011d0 f i LabAppDlg.obj
+ 0001:000001d0       ??_ECAboutDlg@@UAEPAXI@Z   004011d0 f i LabAppDlg.obj
+ 0001:00000210       ??1CAboutDlg@@UAE@XZ       00401210 f i LabAppDlg.obj
+ 0001:00000230       ?DoDataExchange@CAboutDlg@@MAEXPAVCDataExchange@@@Z 00401230 f   LabAppDlg.obj
+ 0001:00000260       ?GetMessageMap@CAboutDlg@@MBEPBUAFX_MSGMAP@@XZ 00401260 f   LabAppDlg.obj
+ 0001:00000280       ?GetThisMessageMap@CAboutDlg@@KGPBUAFX_MSGMAP@@XZ 00401280 f   LabAppDlg.obj
+ 0001:000002a0       ??0CLabAppDlg@@QAE@PAVCWnd@@@Z 004012a0 f   LabAppDlg.obj
+ 0001:00000320       ??_ECLabAppDlg@@UAEPAXI@Z  00401320 f i LabAppDlg.obj
+ 0001:00000320       ??_GCLabAppDlg@@UAEPAXI@Z  00401320 f i LabAppDlg.obj
+ 0001:00000360       ?DoDataExchange@CLabAppDlg@@MAEXPAVCDataExchange@@@Z 00401360 f   LabAppDlg.obj
+ 0001:00000390       ?GetMessageMap@CLabAppDlg@@MBEPBUAFX_MSGMAP@@XZ 00401390 f   LabAppDlg.obj
+ 0001:000003b0       ?GetThisMessageMap@CLabAppDlg@@KGPBUAFX_MSGMAP@@XZ 004013b0 f   LabAppDlg.obj
+ 0001:000003d0       ?OnInitDialog@CLabAppDlg@@MAEHXZ 004013d0 f   LabAppDlg.obj
+ 0001:000004c0       ?OnSysCommand@CLabAppDlg@@IAEXIJ@Z 004014c0 f   LabAppDlg.obj
+ 0001:00000550       ?OnPaint@CLabAppDlg@@IAEXXZ 00401550 f   LabAppDlg.obj
+ 0001:00000670       ?OnQueryDragIcon@CLabAppDlg@@IAEPAUHICON__@@XZ 00401670 f   LabAppDlg.obj
+ 0001:00000690       ?NullAccessFunction@@YAXPAUMYStruct@@@Z 00401690 f   LabAppDlg.obj
+ 0001:000006c0       ?OnNullptraccessBtn@CLabAppDlg@@IAEXXZ 004016c0 f   LabAppDlg.obj
+ 0001:000006f0       ?OnBufferoverflowBtn@CLabAppDlg@@IAEXXZ 004016f0 f   LabAppDlg.obj
+ 0001:00000740       ?OnFreedheapaccessBtn@CLabAppDlg@@IAEXXZ 00401740 f   LabAppDlg.obj
+ 0001:00000780       ?OnHangBtn@CLabAppDlg@@IAEXXZ 00401780 f   LabAppDlg.obj
+ 0001:000007a0       ?ThreadFunc@@YGKPAX@Z      004017a0 f   LabAppDlg.obj
+ 0001:000007d0       ?ThreadFunc2@@YGKPAX@Z     004017d0 f   LabAppDlg.obj
+ 0001:00000800       ?OnThreadhangBtn@CLabAppDlg@@IAEXXZ 00401800 f   LabAppDlg.obj
+ 0001:000008d0       ?OnMemoryleakBtn@CLabAppDlg@@IAEXXZ 004018d0 f   LabAppDlg.obj
+ 0001:00000920       ?_AfxInitManaged@@YAHXZ    00401920 f i StdAfx.obj
+ 0001:00000940       ??0Thank_you@Define_the_symbol__ATL_MIXED@@QAE@XZ 00401940 f i StdAfx.obj
+ 0001:00000960       ?one@Thank_you@Define_the_symbol__ATL_MIXED@@UAEXXZ 00401960 f i StdAfx.obj
+ 0001:00000974       ??3@YAXPAX@Z               00401974 f   mfc90d:mfc90d.dll
+ 0001:0000097a       ?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 0040197a f   mfc90d:mfc90d.dll
+ 0001:00000980       ?OnHelp@CWinApp@@IAEXXZ    00401980 f   mfc90d:mfc90d.dll
+ 0001:00000986       ??0CWinApp@@QAE@PBD@Z      00401986 f   mfc90d:mfc90d.dll
+ 0001:0000098c       ?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 0040198c f   mfc90d:mfc90d.dll
+ 0001:00000992       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 00401992 f   mfc90d:mfc90d.dll
+ 0001:00000998       ?AssertValid@CWinApp@@UBEXXZ 00401998 f   mfc90d:mfc90d.dll
+ 0001:0000099e       ?Dump@CWinApp@@UBEXAAVCDumpContext@@@Z 0040199e f   mfc90d:mfc90d.dll
+ 0001:000009a4       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 004019a4 f   mfc90d:mfc90d.dll
+ 0001:000009aa       ?OnFinalRelease@CCmdTarget@@UAEXXZ 004019aa f   mfc90d:mfc90d.dll
+ 0001:000009b0       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 004019b0 f   mfc90d:mfc90d.dll
+ 0001:000009b6       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 004019b6 f   mfc90d:mfc90d.dll
+ 0001:000009bc       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 004019bc f   mfc90d:mfc90d.dll
+ 0001:000009c2       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 004019c2 f   mfc90d:mfc90d.dll
+ 0001:000009c8       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 004019c8 f   mfc90d:mfc90d.dll
+ 0001:000009ce       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 004019ce f   mfc90d:mfc90d.dll
+ 0001:000009d4       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 004019d4 f   mfc90d:mfc90d.dll
+ 0001:000009da       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 004019da f   mfc90d:mfc90d.dll
+ 0001:000009e0       ?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 004019e0 f   mfc90d:mfc90d.dll
+ 0001:000009e6       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 004019e6 f   mfc90d:mfc90d.dll
+ 0001:000009ec       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 004019ec f   mfc90d:mfc90d.dll
+ 0001:000009f2       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 004019f2 f   mfc90d:mfc90d.dll
+ 0001:000009f8       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 004019f8 f   mfc90d:mfc90d.dll
+ 0001:000009fe       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 004019fe f   mfc90d:mfc90d.dll
+ 0001:00000a04       ?Run@CWinApp@@UAEHXZ       00401a04 f   mfc90d:mfc90d.dll
+ 0001:00000a0a       ?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00401a0a f   mfc90d:mfc90d.dll
+ 0001:00000a10       ?PumpMessage@CWinThread@@UAEHXZ 00401a10 f   mfc90d:mfc90d.dll
+ 0001:00000a16       ?OnIdle@CWinApp@@UAEHJ@Z   00401a16 f   mfc90d:mfc90d.dll
+ 0001:00000a1c       ?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00401a1c f   mfc90d:mfc90d.dll
+ 0001:00000a22       ?ExitInstance@CWinApp@@UAEHXZ 00401a22 f   mfc90d:mfc90d.dll
+ 0001:00000a28       ?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 00401a28 f   mfc90d:mfc90d.dll
+ 0001:00000a2e       ?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 00401a2e f   mfc90d:mfc90d.dll
+ 0001:00000a34       ?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 00401a34 f   mfc90d:mfc90d.dll
+ 0001:00000a3a       ?Delete@CWinThread@@UAEXXZ 00401a3a f   mfc90d:mfc90d.dll
+ 0001:00000a40       ?InitLibId@CWinApp@@UAEXXZ 00401a40 f   mfc90d:mfc90d.dll
+ 0001:00000a46       ?Register@CWinApp@@UAEHXZ  00401a46 f   mfc90d:mfc90d.dll
+ 0001:00000a4c       ?Unregister@CWinApp@@UAEHXZ 00401a4c f   mfc90d:mfc90d.dll
+ 0001:00000a52       ?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 00401a52 f   mfc90d:mfc90d.dll
+ 0001:00000a58       ?AddToRecentFileList@CWinApp@@UAEXPBD@Z 00401a58 f   mfc90d:mfc90d.dll
+ 0001:00000a5e       ?InitApplication@CWinApp@@UAEHXZ 00401a5e f   mfc90d:mfc90d.dll
+ 0001:00000a64       ?SaveAllModified@CWinApp@@UAEHXZ 00401a64 f   mfc90d:mfc90d.dll
+ 0001:00000a6a       ?DoMessageBox@CWinApp@@UAEHPBDII@Z 00401a6a f   mfc90d:mfc90d.dll
+ 0001:00000a70       ?DoWaitCursor@CWinApp@@UAEXH@Z 00401a70 f   mfc90d:mfc90d.dll
+ 0001:00000a76       ?OnDDECommand@CWinApp@@UAEHPAD@Z 00401a76 f   mfc90d:mfc90d.dll
+ 0001:00000a7c       ?WinHelpA@CWinApp@@UAEXKI@Z 00401a7c f   mfc90d:mfc90d.dll
+ 0001:00000a82       ?HtmlHelpA@CWinApp@@UAEXKI@Z 00401a82 f   mfc90d:mfc90d.dll
+ 0001:00000a88       ?WinHelpInternal@CWinApp@@UAEXKI@Z 00401a88 f   mfc90d:mfc90d.dll
+ 0001:00000a8e       ?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 00401a8e f   mfc90d:mfc90d.dll
+ 0001:00000a94       ?LoadSysPolicies@CWinApp@@UAEHXZ 00401a94 f   mfc90d:mfc90d.dll
+ 0001:00000a9a       ??3CObject@@SGXPAX@Z       00401a9a f   mfc90d:mfc90d.dll
+ 0001:00000aa0       ??1CWinApp@@UAE@XZ         00401aa0 f   mfc90d:mfc90d.dll
+ 0001:00000aa6       ?DoModal@CDialog@@UAEHXZ   00401aa6 f   mfc90d:mfc90d.dll
+ 0001:00000aac       ?Enable3dControls@CWinApp@@IAEHXZ 00401aac f   mfc90d:mfc90d.dll
+ 0001:00000ab2       ?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z 00401ab2 f   mfc90d:mfc90d.dll
+ 0001:00000ab8       ??1CDialog@@UAE@XZ         00401ab8 f   mfc90d:mfc90d.dll
+ 0001:00000abe       ?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ 00401abe f   mfc90d:mfc90d.dll
+ 0001:00000ac4       ??0CDialog@@QAE@IPAVCWnd@@@Z 00401ac4 f   mfc90d:mfc90d.dll
+ 0001:00000aca       ?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 00401aca f   mfc90d:mfc90d.dll
+ 0001:00000ad0       ?AssertValid@CDialog@@UBEXXZ 00401ad0 f   mfc90d:mfc90d.dll
+ 0001:00000ad6       ?Dump@CDialog@@UBEXAAVCDumpContext@@@Z 00401ad6 f   mfc90d:mfc90d.dll
+ 0001:00000adc       ?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00401adc f   mfc90d:mfc90d.dll
+ 0001:00000ae2       ?OnFinalRelease@CWnd@@UAEXXZ 00401ae2 f   mfc90d:mfc90d.dll
+ 0001:00000ae8       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 00401ae8 f   mfc90d:mfc90d.dll
+ 0001:00000aee       ?PreSubclassWindow@CWnd@@UAEXXZ 00401aee f   mfc90d:mfc90d.dll
+ 0001:00000af4       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 00401af4 f   mfc90d:mfc90d.dll
+ 0001:00000afa       ?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 00401afa f   mfc90d:mfc90d.dll
+ 0001:00000b00       ?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 00401b00 f   mfc90d:mfc90d.dll
+ 0001:00000b06       ?DestroyWindow@CWnd@@UAEHXZ 00401b06 f   mfc90d:mfc90d.dll
+ 0001:00000b0c       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 00401b0c f   mfc90d:mfc90d.dll
+ 0001:00000b12       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 00401b12 f   mfc90d:mfc90d.dll
+ 0001:00000b18       ?GetMenu@CWnd@@UBEPAVCMenu@@XZ 00401b18 f   mfc90d:mfc90d.dll
+ 0001:00000b1e       ?SetMenu@CWnd@@UAEHPAVCMenu@@@Z 00401b1e f   mfc90d:mfc90d.dll
+ 0001:00000b24       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 00401b24 f   mfc90d:mfc90d.dll
+ 0001:00000b2a       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 00401b2a f   mfc90d:mfc90d.dll
+ 0001:00000b30       ?WinHelpA@CWnd@@UAEXKI@Z   00401b30 f   mfc90d:mfc90d.dll
+ 0001:00000b36       ?HtmlHelpA@CWnd@@UAEXKI@Z  00401b36 f   mfc90d:mfc90d.dll
+ 0001:00000b3c       ?WinHelpInternal@CWnd@@UAEXKI@Z 00401b3c f   mfc90d:mfc90d.dll
+ 0001:00000b42       ?ContinueModal@CWnd@@UAEHXZ 00401b42 f   mfc90d:mfc90d.dll
+ 0001:00000b48       ?EndModalLoop@CWnd@@UAEXH@Z 00401b48 f   mfc90d:mfc90d.dll
+ 0001:00000b4e       ?EnsureStdObj@CWnd@@UAEJXZ 00401b4e f   mfc90d:mfc90d.dll
+ 0001:00000b54       ?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 00401b54 f   mfc90d:mfc90d.dll
+ 0001:00000b5a       ?get_accChildCount@CWnd@@UAEJPAJ@Z 00401b5a f   mfc90d:mfc90d.dll
+ 0001:00000b60       ?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 00401b60 f   mfc90d:mfc90d.dll
+ 0001:00000b66       ?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00401b66 f   mfc90d:mfc90d.dll
+ 0001:00000b6c       ?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00401b6c f   mfc90d:mfc90d.dll
+ 0001:00000b72       ?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00401b72 f   mfc90d:mfc90d.dll
+ 0001:00000b78       ?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 00401b78 f   mfc90d:mfc90d.dll
+ 0001:00000b7e       ?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 00401b7e f   mfc90d:mfc90d.dll
+ 0001:00000b84       ?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00401b84 f   mfc90d:mfc90d.dll
+ 0001:00000b8a       ?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 00401b8a f   mfc90d:mfc90d.dll
+ 0001:00000b90       ?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00401b90 f   mfc90d:mfc90d.dll
+ 0001:00000b96       ?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 00401b96 f   mfc90d:mfc90d.dll
+ 0001:00000b9c       ?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 00401b9c f   mfc90d:mfc90d.dll
+ 0001:00000ba2       ?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00401ba2 f   mfc90d:mfc90d.dll
+ 0001:00000ba8       ?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 00401ba8 f   mfc90d:mfc90d.dll
+ 0001:00000bae       ?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 00401bae f   mfc90d:mfc90d.dll
+ 0001:00000bb4       ?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 00401bb4 f   mfc90d:mfc90d.dll
+ 0001:00000bba       ?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 00401bba f   mfc90d:mfc90d.dll
+ 0001:00000bc0       ?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 00401bc0 f   mfc90d:mfc90d.dll
+ 0001:00000bc6       ?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 00401bc6 f   mfc90d:mfc90d.dll
+ 0001:00000bcc       ?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 00401bcc f   mfc90d:mfc90d.dll
+ 0001:00000bd2       ?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 00401bd2 f   mfc90d:mfc90d.dll
+ 0001:00000bd8       ?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 00401bd8 f   mfc90d:mfc90d.dll
+ 0001:00000bde       ?OnCommand@CWnd@@MAEHIJ@Z  00401bde f   mfc90d:mfc90d.dll
+ 0001:00000be4       ?OnNotify@CWnd@@MAEHIJPAJ@Z 00401be4 f   mfc90d:mfc90d.dll
+ 0001:00000bea       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 00401bea f   mfc90d:mfc90d.dll
+ 0001:00000bf0       ?BeginModalState@CWnd@@UAEXXZ 00401bf0 f   mfc90d:mfc90d.dll
+ 0001:00000bf6       ?EndModalState@CWnd@@UAEXXZ 00401bf6 f   mfc90d:mfc90d.dll
+ 0001:00000bfc       ?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 00401bfc f   mfc90d:mfc90d.dll
+ 0001:00000c02       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 00401c02 f   mfc90d:mfc90d.dll
+ 0001:00000c08       ?WindowProc@CWnd@@MAEJIIJ@Z 00401c08 f   mfc90d:mfc90d.dll
+ 0001:00000c0e       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 00401c0e f   mfc90d:mfc90d.dll
+ 0001:00000c14       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 00401c14 f   mfc90d:mfc90d.dll
+ 0001:00000c1a       ?PostNcDestroy@CWnd@@MAEXXZ 00401c1a f   mfc90d:mfc90d.dll
+ 0001:00000c20       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 00401c20 f   mfc90d:mfc90d.dll
+ 0001:00000c26       ?CheckAutoCenter@CDialog@@UAEHXZ 00401c26 f   mfc90d:mfc90d.dll
+ 0001:00000c2c       ?IsFrameWnd@CWnd@@UBEHXZ   00401c2c f   mfc90d:mfc90d.dll
+ 0001:00000c32       ?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 00401c32 f   mfc90d:mfc90d.dll
+ 0001:00000c38       ?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 00401c38 f   mfc90d:mfc90d.dll
+ 0001:00000c3e       ?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 00401c3e f   mfc90d:mfc90d.dll
+ 0001:00000c44       ?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 00401c44 f   mfc90d:mfc90d.dll
+ 0001:00000c4a       ?Create@CDialog@@UAEHIPAVCWnd@@@Z 00401c4a f   mfc90d:mfc90d.dll
+ 0001:00000c50       ?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 00401c50 f   mfc90d:mfc90d.dll
+ 0001:00000c56       ?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 00401c56 f   mfc90d:mfc90d.dll
+ 0001:00000c5c       ?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 00401c5c f   mfc90d:mfc90d.dll
+ 0001:00000c62       ?OnInitDialog@CDialog@@UAEHXZ 00401c62 f   mfc90d:mfc90d.dll
+ 0001:00000c68       ?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 00401c68 f   mfc90d:mfc90d.dll
+ 0001:00000c6e       ?OnOK@CDialog@@MAEXXZ      00401c6e f   mfc90d:mfc90d.dll
+ 0001:00000c74       ?OnCancel@CDialog@@MAEXXZ  00401c74 f   mfc90d:mfc90d.dll
+ 0001:00000c7a       ?PreInitDialog@CDialog@@MAEXXZ 00401c7a f   mfc90d:mfc90d.dll
+ 0001:00000c80       ?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 00401c80 f   mfc90d:mfc90d.dll
+ 0001:00000c86       ?LoadIconA@CWinApp@@QBEPAUHICON__@@I@Z 00401c86 f   mfc90d:mfc90d.dll
+ 0001:00000c8c       ?AfxGetApp@@YGPAVCWinApp@@XZ 00401c8c f   mfc90d:mfc90d.dll
+ 0001:00000c92       ?SetIcon@CWnd@@QAEPAUHICON__@@PAU2@H@Z 00401c92 f   mfc90d:mfc90d.dll
+ 0001:00000c98       ??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 00401c98 f   mfc90d:mfc90d.dll
+ 0001:00000c9e       ??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 00401c9e f   mfc90d:mfc90d.dll
+ 0001:00000ca4       ?AppendMenuA@CMenu@@QAEHIIPBD@Z 00401ca4 f   mfc90d:mfc90d.dll
+ 0001:00000caa       ?IsEmpty@?$CSimpleStringT@D$00@ATL@@QBE_NXZ 00401caa f   mfc90d:mfc90d.dll
+ 0001:00000cb0       ?LoadStringA@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEHI@Z 00401cb0 f   mfc90d:mfc90d.dll
+ 0001:00000cb6       ??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 00401cb6 f   mfc90d:mfc90d.dll
+ 0001:00000cbc       ?GetSystemMenu@CWnd@@QBEPAVCMenu@@H@Z 00401cbc f   mfc90d:mfc90d.dll
+ 0001:00000cc2       ?OnSysCommand@CWnd@@IAEXIJ@Z 00401cc2 f   mfc90d:mfc90d.dll
+ 0001:00000cc8       ?OnPaint@CDialog@@IAEXXZ   00401cc8 f   mfc90d:mfc90d.dll
+ 0001:00000cce       ??1CPaintDC@@UAE@XZ        00401cce f   mfc90d:mfc90d.dll
+ 0001:00000cd4       ?DrawIcon@CDC@@QAEHHHPAUHICON__@@@Z 00401cd4 f   mfc90d:mfc90d.dll
+ 0001:00000cda       ?GetClientRect@CWnd@@QBEXPAUtagRECT@@@Z 00401cda f   mfc90d:mfc90d.dll
+ 0001:00000ce0       ?SendMessageA@CWnd@@QBEJIIJ@Z 00401ce0 f   mfc90d:mfc90d.dll
+ 0001:00000ce6       ?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ 00401ce6 f   mfc90d:mfc90d.dll
+ 0001:00000cec       ??0CPaintDC@@QAE@PAVCWnd@@@Z 00401cec f   mfc90d:mfc90d.dll
+ 0001:00000cf2       ?IsIconic@CWnd@@QBEHXZ     00401cf2 f   mfc90d:mfc90d.dll
+ 0001:00000cf8       ?AfxAssertFailedLine@@YGHPBDH@Z 00401cf8 f   mfc90d:mfc90d.dll
+ 0001:00000d00       ??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z 00401d00 f i mfcs90d:nolib.obj
+ 0001:00000d70       ??1stringdispid@CComTypeInfoHolder@ATL@@QAE@XZ 00401d70 f i mfcs90d:nolib.obj
+ 0001:00000d90       ??1CComBSTR@ATL@@QAE@XZ    00401d90 f i mfcs90d:nolib.obj
+ 0001:00000db0       ??0type_info@@AAE@ABV0@@Z  00401db0 f   msvcrtd:ti_inst.obj
+ 0001:00000dd0       ??_Etype_info@@UAEPAXI@Z   00401dd0 f i msvcrtd:ti_inst.obj
+ 0001:00000e40       ??4type_info@@AAEAAV0@ABV0@@Z 00401e40 f   msvcrtd:ti_inst.obj
+ 0001:00000e52       ___CxxFrameHandler3        00401e52 f   msvcrtd:MSVCR90D.dll
+ 0001:00000e60       @__security_check_cookie@4 00401e60 f   msvcrtd:secchk.obj
+ 0001:00000e70       __onexit                   00401e70 f   msvcrtd:atonexit.obj
+ 0001:00000f80       _atexit                    00401f80 f   msvcrtd:atonexit.obj
+ 0001:00000f9c       _strcpy                    00401f9c f   msvcrtd:MSVCR90D.dll
+ 0001:00000fa2       _free                      00401fa2 f   msvcrtd:MSVCR90D.dll
+ 0001:00000fa8       _malloc                    00401fa8 f   msvcrtd:MSVCR90D.dll
+ 0001:00000fae       _rand                      00401fae f   msvcrtd:MSVCR90D.dll
+ 0001:00000fb4       _srand                     00401fb4 f   msvcrtd:MSVCR90D.dll
+ 0001:00000fba       __time64                   00401fba f   msvcrtd:MSVCR90D.dll
+ 0001:000010c0       _WinMainCRTStartup         004020c0 f   msvcrtd:crtexew.obj
+ 0001:00001410       _NtCurrentTeb              00402410 f i msvcrtd:crtexew.obj
+ 0001:000014d0       ??_V@YAXPAX@Z              004024d0 f   msvcrtd:MSVCR90D.dll
+ 0001:000014e0       ??_M@YGXPAXIHP6EX0@Z@Z     004024e0 f   msvcrtd:ehvecdtr.obj
+ 0001:00001590       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 00402590 f   msvcrtd:ehvecdtr.obj
+ 0001:00001650       ___report_gsfailure        00402650 f   msvcrtd:gs_report.obj
+ 0001:0000175e       __unlock                   0040275e f   msvcrtd:MSVCR90D.dll
+ 0001:00001764       ___dllonexit               00402764 f   msvcrtd:MSVCR90D.dll
+ 0001:0000176a       __encode_pointer           0040276a f   msvcrtd:MSVCR90D.dll
+ 0001:00001770       __lock                     00402770 f   msvcrtd:MSVCR90D.dll
+ 0001:00001776       __decode_pointer           00402776 f   msvcrtd:MSVCR90D.dll
+ 0001:00001780       __except_handler4          00402780 f   msvcrtd:chandler4gs.obj
+ 0001:000017b0       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 004027b0 f   msvcrtd:unhandld.obj
+ 0001:00001820       ___CxxSetUnhandledExceptionFilter 00402820 f   msvcrtd:unhandld.obj
+ 0001:00001834       __configthreadlocale       00402834 f   msvcrtd:MSVCR90D.dll
+ 0001:00001840       __setdefaultprecision      00402840 f   msvcrtd:fp8.obj
+ 0001:00001880       __invoke_watson_if_error   00402880 f i msvcrtd:fp8.obj
+ 0001:000018ac       ___setusermatherr          004028ac f   msvcrtd:MSVCR90D.dll
+ 0001:000018c0       __matherr                  004028c0 f   msvcrtd:merr.obj
+ 0001:000018d0       __setargv                  004028d0 f   msvcrtd:dllargv.obj
+ 0001:000018e0       __RTC_Initialize           004028e0 f   msvcrtd:_initsect_.obj
+ 0001:00001910       __RTC_Terminate            00402910 f   msvcrtd:_initsect_.obj
+ 0001:00001936       ___p__commode              00402936 f   msvcrtd:MSVCR90D.dll
+ 0001:0000193c       ___p__fmode                0040293c f   msvcrtd:MSVCR90D.dll
+ 0001:00001942       ___set_app_type            00402942 f   msvcrtd:MSVCR90D.dll
+ 0001:00001948       __amsg_exit                00402948 f   msvcrtd:MSVCR90D.dll
+ 0001:0000194e       ___getmainargs             0040294e f   msvcrtd:MSVCR90D.dll
+ 0001:00001960       ___security_init_cookie    00402960 f   msvcrtd:gs_support.obj
+ 0001:00001a3c       __exit                     00402a3c f   msvcrtd:MSVCR90D.dll
+ 0001:00001a42       __XcptFilter               00402a42 f   msvcrtd:MSVCR90D.dll
+ 0001:00001a48       __cexit                    00402a48 f   msvcrtd:MSVCR90D.dll
+ 0001:00001a4e       _exit                      00402a4e f   msvcrtd:MSVCR90D.dll
+ 0001:00001a54       __ismbblead                00402a54 f   msvcrtd:MSVCR90D.dll
+ 0001:00001a5a       __CrtSetCheckCount         00402a5a f   msvcrtd:MSVCR90D.dll
+ 0001:00001a60       __ValidateImageBase        00402a60 f   msvcrtd:pesect.obj
+ 0001:00001ac0       __FindPESection            00402ac0 f   msvcrtd:pesect.obj
+ 0001:00001b40       __IsNonwritableInCurrentImage 00402b40 f   msvcrtd:pesect.obj
+ 0001:00001c52       __CrtDbgReportW            00402c52 f   msvcrtd:MSVCR90D.dll
+ 0001:00001c58       __initterm                 00402c58 f   msvcrtd:MSVCR90D.dll
+ 0001:00001c5e       __initterm_e               00402c5e f   msvcrtd:MSVCR90D.dll
+ 0001:00001c64       ?terminate@@YAXXZ          00402c64 f   msvcrtd:MSVCR90D.dll
+ 0001:00001c6a       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 00402c6a f   msvcrtd:MSVCR90D.dll
+ 0001:00001c6a       ??1type_info@@UAE@XZ       00402c6a f   msvcrtd:MSVCR90D.dll
+ 0001:00001c70       __crt_debugger_hook        00402c70 f   msvcrtd:MSVCR90D.dll
+ 0001:00001c76       __except_handler4_common   00402c76 f   msvcrtd:MSVCR90D.dll
+ 0001:00001c7c       __controlfp_s              00402c7c f   msvcrtd:MSVCR90D.dll
+ 0001:00001c82       __invoke_watson            00402c82 f   msvcrtd:MSVCR90D.dll
+ 0001:00001c88       _Sleep@4                   00402c88 f   kernel32:KERNEL32.dll
+ 0001:00001c8e       _CloseHandle@4             00402c8e f   kernel32:KERNEL32.dll
+ 0001:00001c94       _CreateThread@24           00402c94 f   kernel32:KERNEL32.dll
+ 0001:00001c9a       _InterlockedExchange@8     00402c9a f   kernel32:KERNEL32.dll
+ 0001:00001ca0       _InterlockedCompareExchange@12 00402ca0 f   kernel32:KERNEL32.dll
+ 0001:00001ca6       _GetStartupInfoA@4         00402ca6 f   kernel32:KERNEL32.dll
+ 0001:00001cac       _TerminateProcess@8        00402cac f   kernel32:KERNEL32.dll
+ 0001:00001cb2       _GetCurrentProcess@0       00402cb2 f   kernel32:KERNEL32.dll
+ 0001:00001cb8       _UnhandledExceptionFilter@4 00402cb8 f   kernel32:KERNEL32.dll
+ 0001:00001cbe       _SetUnhandledExceptionFilter@4 00402cbe f   kernel32:KERNEL32.dll
+ 0001:00001cc4       _IsDebuggerPresent@0       00402cc4 f   kernel32:KERNEL32.dll
+ 0001:00001cca       _QueryPerformanceCounter@4 00402cca f   kernel32:KERNEL32.dll
+ 0001:00001cd0       _GetTickCount@0            00402cd0 f   kernel32:KERNEL32.dll
+ 0001:00001cd6       _GetCurrentThreadId@0      00402cd6 f   kernel32:KERNEL32.dll
+ 0001:00001cdc       _GetCurrentProcessId@0     00402cdc f   kernel32:KERNEL32.dll
+ 0001:00001ce2       _GetSystemTimeAsFileTime@4 00402ce2 f   kernel32:KERNEL32.dll
+ 0001:00001ce8       _GetSystemMetrics@4        00402ce8 f   user32:USER32.dll
+ 0001:00001cee       _SysFreeString@4           00402cee f   oleaut32:OLEAUT32.dll
+ 0001:00001d00       ??0CSize@@QAE@XZ           00402d00 f   atlsd:atltypes.obj
+ 0001:00001d10       ??0CSize@@QAE@HH@Z         00402d10 f   atlsd:atltypes.obj
+ 0001:00001d40       ??0CSize@@QAE@UtagSIZE@@@Z 00402d40 f   atlsd:atltypes.obj
+ 0001:00001d60       ??0CSize@@QAE@UtagPOINT@@@Z 00402d60 f   atlsd:atltypes.obj
+ 0001:00001d80       ??0CSize@@QAE@K@Z          00402d80 f   atlsd:atltypes.obj
+ 0001:00001dc0       ??8CSize@@QBEHUtagSIZE@@@Z 00402dc0 f   atlsd:atltypes.obj
+ 0001:00001e00       ??9CSize@@QBEHUtagSIZE@@@Z 00402e00 f   atlsd:atltypes.obj
+ 0001:00001e40       ??YCSize@@QAEXUtagSIZE@@@Z 00402e40 f   atlsd:atltypes.obj
+ 0001:00001e70       ??ZCSize@@QAEXUtagSIZE@@@Z 00402e70 f   atlsd:atltypes.obj
+ 0001:00001ea0       ?SetSize@CSize@@QAEXHH@Z   00402ea0 f   atlsd:atltypes.obj
+ 0001:00001ec0       ??HCSize@@QBE?AV0@UtagSIZE@@@Z 00402ec0 f   atlsd:atltypes.obj
+ 0001:00001ef0       ??GCSize@@QBE?AV0@UtagSIZE@@@Z 00402ef0 f   atlsd:atltypes.obj
+ 0001:00001f20       ??GCSize@@QBE?AV0@XZ       00402f20 f   atlsd:atltypes.obj
+ 0001:00001f50       ??HCSize@@QBE?AVCPoint@@UtagPOINT@@@Z 00402f50 f   atlsd:atltypes.obj
+ 0001:00001f80       ??GCSize@@QBE?AVCPoint@@UtagPOINT@@@Z 00402f80 f   atlsd:atltypes.obj
+ 0001:00001fb0       ??HCSize@@QBE?AVCRect@@PBUtagRECT@@@Z 00402fb0 f   atlsd:atltypes.obj
+ 0001:00002000       ??GCSize@@QBE?AVCRect@@PBUtagRECT@@@Z 00403000 f   atlsd:atltypes.obj
+ 0001:00002050       ??0CPoint@@QAE@XZ          00403050 f   atlsd:atltypes.obj
+ 0001:00002060       ??0CPoint@@QAE@HH@Z        00403060 f   atlsd:atltypes.obj
+ 0001:00002090       ??0CPoint@@QAE@UtagPOINT@@@Z 00403090 f   atlsd:atltypes.obj
+ 0001:000020b0       ??0CPoint@@QAE@UtagSIZE@@@Z 004030b0 f   atlsd:atltypes.obj
+ 0001:000020d0       ??0CPoint@@QAE@J@Z         004030d0 f   atlsd:atltypes.obj
+ 0001:00002110       ?Offset@CPoint@@QAEXHH@Z   00403110 f   atlsd:atltypes.obj
+ 0001:00002140       ?Offset@CPoint@@QAEXUtagPOINT@@@Z 00403140 f   atlsd:atltypes.obj
+ 0001:00002170       ?Offset@CPoint@@QAEXUtagSIZE@@@Z 00403170 f   atlsd:atltypes.obj
+ 0001:000021a0       ?SetPoint@CPoint@@QAEXHH@Z 004031a0 f   atlsd:atltypes.obj
+ 0001:000021c0       ??8CPoint@@QBEHUtagPOINT@@@Z 004031c0 f   atlsd:atltypes.obj
+ 0001:00002200       ??9CPoint@@QBEHUtagPOINT@@@Z 00403200 f   atlsd:atltypes.obj
+ 0001:00002240       ??YCPoint@@QAEXUtagSIZE@@@Z 00403240 f   atlsd:atltypes.obj
+ 0001:00002270       ??ZCPoint@@QAEXUtagSIZE@@@Z 00403270 f   atlsd:atltypes.obj
+ 0001:000022a0       ??YCPoint@@QAEXUtagPOINT@@@Z 004032a0 f   atlsd:atltypes.obj
+ 0001:000022d0       ??ZCPoint@@QAEXUtagPOINT@@@Z 004032d0 f   atlsd:atltypes.obj
+ 0001:00002300       ??HCPoint@@QBE?AV0@UtagSIZE@@@Z 00403300 f   atlsd:atltypes.obj
+ 0001:00002330       ??GCPoint@@QBE?AV0@UtagSIZE@@@Z 00403330 f   atlsd:atltypes.obj
+ 0001:00002360       ??GCPoint@@QBE?AV0@XZ      00403360 f   atlsd:atltypes.obj
+ 0001:00002390       ??HCPoint@@QBE?AV0@UtagPOINT@@@Z 00403390 f   atlsd:atltypes.obj
+ 0001:000023c0       ??GCPoint@@QBE?AVCSize@@UtagPOINT@@@Z 004033c0 f   atlsd:atltypes.obj
+ 0001:000023f0       ??HCPoint@@QBE?AVCRect@@PBUtagRECT@@@Z 004033f0 f   atlsd:atltypes.obj
+ 0001:00002440       ??GCPoint@@QBE?AVCRect@@PBUtagRECT@@@Z 00403440 f   atlsd:atltypes.obj
+ 0001:00002490       ??0CRect@@QAE@XZ           00403490 f   atlsd:atltypes.obj
+ 0001:000024a0       ??0CRect@@QAE@HHHH@Z       004034a0 f   atlsd:atltypes.obj
+ 0001:000024e0       ??0CRect@@QAE@ABUtagRECT@@@Z 004034e0 f   atlsd:atltypes.obj
+ 0001:00002500       ??0CRect@@QAE@PBUtagRECT@@@Z 00403500 f   atlsd:atltypes.obj
+ 0001:00002520       ??0CRect@@QAE@UtagPOINT@@UtagSIZE@@@Z 00403520 f   atlsd:atltypes.obj
+ 0001:00002560       ??0CRect@@QAE@UtagPOINT@@0@Z 00403560 f   atlsd:atltypes.obj
+ 0001:000025a0       ?Width@CRect@@QBEHXZ       004035a0 f   atlsd:atltypes.obj
+ 0001:000025c0       ?Height@CRect@@QBEHXZ      004035c0 f   atlsd:atltypes.obj
+ 0001:000025e0       ?Size@CRect@@QBE?AVCSize@@XZ 004035e0 f   atlsd:atltypes.obj
+ 0001:00002620       ?TopLeft@CRect@@QAEAAVCPoint@@XZ 00403620 f   atlsd:atltypes.obj
+ 0001:00002630       ?BottomRight@CRect@@QAEAAVCPoint@@XZ 00403630 f   atlsd:atltypes.obj
+ 0001:00002650       ?TopLeft@CRect@@QBEABVCPoint@@XZ 00403650 f   atlsd:atltypes.obj
+ 0001:00002660       ?BottomRight@CRect@@QBEABVCPoint@@XZ 00403660 f   atlsd:atltypes.obj
+ 0001:00002680       ?CenterPoint@CRect@@QBE?AVCPoint@@XZ 00403680 f   atlsd:atltypes.obj
+ 0001:000026c0       ?SwapLeftRight@CRect@@QAEXXZ 004036c0 f   atlsd:atltypes.obj
+ 0001:000026e0       ?SwapLeftRight@CRect@@SGXPAUtagRECT@@@Z 004036e0 f   atlsd:atltypes.obj
+ 0001:00002710       ??BCRect@@QAEPAUtagRECT@@XZ 00403710 f   atlsd:atltypes.obj
+ 0001:00002720       ??BCRect@@QBEPBUtagRECT@@XZ 00403720 f   atlsd:atltypes.obj
+ 0001:00002730       ?IsRectEmpty@CRect@@QBEHXZ 00403730 f   atlsd:atltypes.obj
+ 0001:00002750       ?IsRectNull@CRect@@QBEHXZ  00403750 f   atlsd:atltypes.obj
+ 0001:000027a0       ?PtInRect@CRect@@QBEHUtagPOINT@@@Z 004037a0 f   atlsd:atltypes.obj
+ 0001:000027d0       ?SetRect@CRect@@QAEXHHHH@Z 004037d0 f   atlsd:atltypes.obj
+ 0001:00002800       ?SetRect@CRect@@QAEXUtagPOINT@@0@Z 00403800 f   atlsd:atltypes.obj
+ 0001:00002830       ?SetRectEmpty@CRect@@QAEXXZ 00403830 f   atlsd:atltypes.obj
+ 0001:00002850       ?CopyRect@CRect@@QAEXPBUtagRECT@@@Z 00403850 f   atlsd:atltypes.obj
+ 0001:00002870       ?EqualRect@CRect@@QBEHPBUtagRECT@@@Z 00403870 f   atlsd:atltypes.obj
+ 0001:00002890       ?InflateRect@CRect@@QAEXHH@Z 00403890 f   atlsd:atltypes.obj
+ 0001:000028c0       ?InflateRect@CRect@@QAEXUtagSIZE@@@Z 004038c0 f   atlsd:atltypes.obj
+ 0001:000028f0       ?DeflateRect@CRect@@QAEXHH@Z 004038f0 f   atlsd:atltypes.obj
+ 0001:00002920       ?DeflateRect@CRect@@QAEXUtagSIZE@@@Z 00403920 f   atlsd:atltypes.obj
+ 0001:00002950       ?OffsetRect@CRect@@QAEXHH@Z 00403950 f   atlsd:atltypes.obj
+ 0001:00002980       ?OffsetRect@CRect@@QAEXUtagPOINT@@@Z 00403980 f   atlsd:atltypes.obj
+ 0001:000029b0       ?OffsetRect@CRect@@QAEXUtagSIZE@@@Z 004039b0 f   atlsd:atltypes.obj
+ 0001:000029e0       ?MoveToY@CRect@@QAEXH@Z    004039e0 f   atlsd:atltypes.obj
+ 0001:00002a10       ?MoveToX@CRect@@QAEXH@Z    00403a10 f   atlsd:atltypes.obj
+ 0001:00002a40       ?MoveToXY@CRect@@QAEXHH@Z  00403a40 f   atlsd:atltypes.obj
+ 0001:00002a70       ?MoveToXY@CRect@@QAEXUtagPOINT@@@Z 00403a70 f   atlsd:atltypes.obj
+ 0001:00002aa0       ?IntersectRect@CRect@@QAEHPBUtagRECT@@0@Z 00403aa0 f   atlsd:atltypes.obj
+ 0001:00002ad0       ?UnionRect@CRect@@QAEHPBUtagRECT@@0@Z 00403ad0 f   atlsd:atltypes.obj
+ 0001:00002b00       ??4CRect@@QAEXABUtagRECT@@@Z 00403b00 f   atlsd:atltypes.obj
+ 0001:00002b20       ??8CRect@@QBEHABUtagRECT@@@Z 00403b20 f   atlsd:atltypes.obj
+ 0001:00002b40       ??9CRect@@QBEHABUtagRECT@@@Z 00403b40 f   atlsd:atltypes.obj
+ 0001:00002b70       ??YCRect@@QAEXUtagPOINT@@@Z 00403b70 f   atlsd:atltypes.obj
+ 0001:00002ba0       ??YCRect@@QAEXUtagSIZE@@@Z 00403ba0 f   atlsd:atltypes.obj
+ 0001:00002bd0       ??YCRect@@QAEXPBUtagRECT@@@Z 00403bd0 f   atlsd:atltypes.obj
+ 0001:00002bf0       ??ZCRect@@QAEXUtagPOINT@@@Z 00403bf0 f   atlsd:atltypes.obj
+ 0001:00002c20       ??ZCRect@@QAEXUtagSIZE@@@Z 00403c20 f   atlsd:atltypes.obj
+ 0001:00002c50       ??ZCRect@@QAEXPBUtagRECT@@@Z 00403c50 f   atlsd:atltypes.obj
+ 0001:00002c70       ??_4CRect@@QAEXABUtagRECT@@@Z 00403c70 f   atlsd:atltypes.obj
+ 0001:00002ca0       ??_5CRect@@QAEXABUtagRECT@@@Z 00403ca0 f   atlsd:atltypes.obj
+ 0001:00002cd0       ??HCRect@@QBE?AV0@UtagPOINT@@@Z 00403cd0 f   atlsd:atltypes.obj
+ 0001:00002d30       ??GCRect@@QBE?AV0@UtagPOINT@@@Z 00403d30 f   atlsd:atltypes.obj
+ 0001:00002d90       ??HCRect@@QBE?AV0@UtagSIZE@@@Z 00403d90 f   atlsd:atltypes.obj
+ 0001:00002df0       ??GCRect@@QBE?AV0@UtagSIZE@@@Z 00403df0 f   atlsd:atltypes.obj
+ 0001:00002e50       ??HCRect@@QBE?AV0@PBUtagRECT@@@Z 00403e50 f   atlsd:atltypes.obj
+ 0001:00002ea0       ??GCRect@@QBE?AV0@PBUtagRECT@@@Z 00403ea0 f   atlsd:atltypes.obj
+ 0001:00002ef0       ??ICRect@@QBE?AV0@ABUtagRECT@@@Z 00403ef0 f   atlsd:atltypes.obj
+ 0001:00002f40       ??UCRect@@QBE?AV0@ABUtagRECT@@@Z 00403f40 f   atlsd:atltypes.obj
+ 0001:00002f90       ?SubtractRect@CRect@@QAEHPBUtagRECT@@0@Z 00403f90 f   atlsd:atltypes.obj
+ 0001:00002fc0       ?NormalizeRect@CRect@@QAEXXZ 00403fc0 f   atlsd:atltypes.obj
+ 0001:00003030       ?InflateRect@CRect@@QAEXPBUtagRECT@@@Z 00404030 f   atlsd:atltypes.obj
+ 0001:00003090       ?InflateRect@CRect@@QAEXHHHH@Z 00404090 f   atlsd:atltypes.obj
+ 0001:000030e0       ?DeflateRect@CRect@@QAEXPBUtagRECT@@@Z 004040e0 f   atlsd:atltypes.obj
+ 0001:00003140       ?DeflateRect@CRect@@QAEXHHHH@Z 00404140 f   atlsd:atltypes.obj
+ 0001:00003190       ?MulDiv@CRect@@QBE?AV1@HH@Z 00404190 f   atlsd:atltypes.obj
+ 0001:00003210       _WinMain@16                00404210 f   mfcs90d:appmodul.obj
+ 0001:00003230       ?AfxInitialize@@YGHHK@Z    00404230 f   mfcs90d:appmodul.obj
+ 0001:00003286       __setmbcp                  00404286 f   msvcrtd:MSVCR90D.dll
+ 0001:0000328c       _MulDiv@12                 0040428c f   kernel32:KERNEL32.dll
+ 0001:00003292       _CopyRect@8                00404292 f   user32:USER32.dll
+ 0001:00003298       _IsRectEmpty@4             00404298 f   user32:USER32.dll
+ 0001:0000329e       _PtInRect@12               0040429e f   user32:USER32.dll
+ 0001:000032a4       _SetRect@20                004042a4 f   user32:USER32.dll
+ 0001:000032aa       _SetRectEmpty@4            004042aa f   user32:USER32.dll
+ 0001:000032b0       _EqualRect@8               004042b0 f   user32:USER32.dll
+ 0001:000032b6       _InflateRect@12            004042b6 f   user32:USER32.dll
+ 0001:000032bc       _OffsetRect@12             004042bc f   user32:USER32.dll
+ 0001:000032c2       _IntersectRect@12          004042c2 f   user32:USER32.dll
+ 0001:000032c8       _UnionRect@12              004042c8 f   user32:USER32.dll
+ 0001:000032ce       _SubtractRect@12           004042ce f   user32:USER32.dll
+ 0001:000032d4       ?AfxWinMain@@YGHPAUHINSTANCE__@@0PADH@Z 004042d4 f   mfc90d:mfc90d.dll
+ 0001:000032da       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 004042da f   mfc90d:mfc90d.dll
+ 0002:00000000       __imp__CloseHandle@4       00405000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__CreateThread@24     00405004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__InterlockedExchange@8 00405008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__InterlockedCompareExchange@12 0040500c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetStartupInfoA@4   00405010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__TerminateProcess@8  00405014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentProcess@0 00405018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__UnhandledExceptionFilter@4 0040501c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__SetUnhandledExceptionFilter@4 00405020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__MulDiv@12           00405024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__IsDebuggerPresent@0 00405028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__QueryPerformanceCounter@4 0040502c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetTickCount@0      00405030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetCurrentThreadId@0 00405034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetCurrentProcessId@0 00405038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__Sleep@4             0040503c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetSystemTimeAsFileTime@4 00405040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 00405044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp___decode_pointer     00405048     msvcrtd:MSVCR90D.dll
+ 0002:0000004c       __imp___onexit             0040504c     msvcrtd:MSVCR90D.dll
+ 0002:00000050       __imp___lock               00405050     msvcrtd:MSVCR90D.dll
+ 0002:00000054       __imp___encode_pointer     00405054     msvcrtd:MSVCR90D.dll
+ 0002:00000058       __imp___setmbcp            00405058     msvcrtd:MSVCR90D.dll
+ 0002:0000005c       __imp____dllonexit         0040505c     msvcrtd:MSVCR90D.dll
+ 0002:00000060       __imp___unlock             00405060     msvcrtd:MSVCR90D.dll
+ 0002:00000064       __imp_??_V@YAXPAX@Z        00405064     msvcrtd:MSVCR90D.dll
+ 0002:00000068       __imp___time64             00405068     msvcrtd:MSVCR90D.dll
+ 0002:0000006c       __imp__srand               0040506c     msvcrtd:MSVCR90D.dll
+ 0002:00000070       __imp__rand                00405070     msvcrtd:MSVCR90D.dll
+ 0002:00000074       __imp__malloc              00405074     msvcrtd:MSVCR90D.dll
+ 0002:00000078       __imp__free                00405078     msvcrtd:MSVCR90D.dll
+ 0002:0000007c       __imp__strcpy              0040507c     msvcrtd:MSVCR90D.dll
+ 0002:00000080       __imp___crt_debugger_hook  00405080     msvcrtd:MSVCR90D.dll
+ 0002:00000084       __imp___invoke_watson      00405084     msvcrtd:MSVCR90D.dll
+ 0002:00000088       __imp___controlfp_s        00405088     msvcrtd:MSVCR90D.dll
+ 0002:0000008c       __imp___except_handler4_common 0040508c     msvcrtd:MSVCR90D.dll
+ 0002:00000090       __imp____CxxFrameHandler3  00405090     msvcrtd:MSVCR90D.dll
+ 0002:00000094       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 00405094     msvcrtd:MSVCR90D.dll
+ 0002:00000098       __imp_?terminate@@YAXXZ    00405098     msvcrtd:MSVCR90D.dll
+ 0002:0000009c       __imp___initterm_e         0040509c     msvcrtd:MSVCR90D.dll
+ 0002:000000a0       __imp___initterm           004050a0     msvcrtd:MSVCR90D.dll
+ 0002:000000a4       __imp___CrtDbgReportW      004050a4     msvcrtd:MSVCR90D.dll
+ 0002:000000a8       __imp___CrtSetCheckCount   004050a8     msvcrtd:MSVCR90D.dll
+ 0002:000000ac       __imp___acmdln             004050ac     msvcrtd:MSVCR90D.dll
+ 0002:000000b0       __imp___ismbblead          004050b0     msvcrtd:MSVCR90D.dll
+ 0002:000000b4       __imp__exit                004050b4     msvcrtd:MSVCR90D.dll
+ 0002:000000b8       __imp___cexit              004050b8     msvcrtd:MSVCR90D.dll
+ 0002:000000bc       __imp___XcptFilter         004050bc     msvcrtd:MSVCR90D.dll
+ 0002:000000c0       __imp___exit               004050c0     msvcrtd:MSVCR90D.dll
+ 0002:000000c4       __imp____getmainargs       004050c4     msvcrtd:MSVCR90D.dll
+ 0002:000000c8       __imp___amsg_exit          004050c8     msvcrtd:MSVCR90D.dll
+ 0002:000000cc       __imp____set_app_type      004050cc     msvcrtd:MSVCR90D.dll
+ 0002:000000d0       __imp____p__fmode          004050d0     msvcrtd:MSVCR90D.dll
+ 0002:000000d4       __imp____p__commode        004050d4     msvcrtd:MSVCR90D.dll
+ 0002:000000d8       __imp___adjust_fdiv        004050d8     msvcrtd:MSVCR90D.dll
+ 0002:000000dc       __imp____setusermatherr    004050dc     msvcrtd:MSVCR90D.dll
+ 0002:000000e0       __imp___configthreadlocale 004050e0     msvcrtd:MSVCR90D.dll
+ 0002:000000e4       \177MSVCR90D_NULL_THUNK_DATA 004050e4     msvcrtd:MSVCR90D.dll
+ 0002:000000e8       __imp__SysFreeString@4     004050e8     oleaut32:OLEAUT32.dll
+ 0002:000000ec       \177OLEAUT32_NULL_THUNK_DATA 004050ec     oleaut32:OLEAUT32.dll
+ 0002:000000f0       __imp__GetSystemMetrics@4  004050f0     user32:USER32.dll
+ 0002:000000f4       __imp__CopyRect@8          004050f4     user32:USER32.dll
+ 0002:000000f8       __imp__IsRectEmpty@4       004050f8     user32:USER32.dll
+ 0002:000000fc       __imp__PtInRect@12         004050fc     user32:USER32.dll
+ 0002:00000100       __imp__SetRect@20          00405100     user32:USER32.dll
+ 0002:00000104       __imp__SetRectEmpty@4      00405104     user32:USER32.dll
+ 0002:00000108       __imp__EqualRect@8         00405108     user32:USER32.dll
+ 0002:0000010c       __imp__InflateRect@12      0040510c     user32:USER32.dll
+ 0002:00000110       __imp__OffsetRect@12       00405110     user32:USER32.dll
+ 0002:00000114       __imp__IntersectRect@12    00405114     user32:USER32.dll
+ 0002:00000118       __imp__SubtractRect@12     00405118     user32:USER32.dll
+ 0002:0000011c       __imp__UnionRect@12        0040511c     user32:USER32.dll
+ 0002:00000120       \177USER32_NULL_THUNK_DATA 00405120     user32:USER32.dll
+ 0002:00000124       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 00405124     mfc90d:mfc90d.dll
+ 0002:00000128       __imp_?WinHelpA@CWnd@@UAEXKI@Z 00405128     mfc90d:mfc90d.dll
+ 0002:0000012c       __imp_?HtmlHelpA@CWnd@@UAEXKI@Z 0040512c     mfc90d:mfc90d.dll
+ 0002:00000130       __imp_?WinHelpInternal@CWnd@@UAEXKI@Z 00405130     mfc90d:mfc90d.dll
+ 0002:00000134       __imp_?ContinueModal@CWnd@@UAEHXZ 00405134     mfc90d:mfc90d.dll
+ 0002:00000138       __imp_?EndModalLoop@CWnd@@UAEXH@Z 00405138     mfc90d:mfc90d.dll
+ 0002:0000013c       __imp_?EnsureStdObj@CWnd@@UAEJXZ 0040513c     mfc90d:mfc90d.dll
+ 0002:00000140       __imp_?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z 00405140     mfc90d:mfc90d.dll
+ 0002:00000144       __imp_?get_accChildCount@CWnd@@UAEJPAJ@Z 00405144     mfc90d:mfc90d.dll
+ 0002:00000148       __imp_?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z 00405148     mfc90d:mfc90d.dll
+ 0002:0000014c       __imp_?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 0040514c     mfc90d:mfc90d.dll
+ 0002:00000150       __imp_?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00405150     mfc90d:mfc90d.dll
+ 0002:00000154       __imp_?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00405154     mfc90d:mfc90d.dll
+ 0002:00000158       __imp_?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 00405158     mfc90d:mfc90d.dll
+ 0002:0000015c       __imp_?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z 0040515c     mfc90d:mfc90d.dll
+ 0002:00000160       __imp_?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00405160     mfc90d:mfc90d.dll
+ 0002:00000164       __imp_?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z 00405164     mfc90d:mfc90d.dll
+ 0002:00000168       __imp_?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00405168     mfc90d:mfc90d.dll
+ 0002:0000016c       __imp_?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z 0040516c     mfc90d:mfc90d.dll
+ 0002:00000170       __imp_?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z 00405170     mfc90d:mfc90d.dll
+ 0002:00000174       __imp_?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z 00405174     mfc90d:mfc90d.dll
+ 0002:00000178       __imp_?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z 00405178     mfc90d:mfc90d.dll
+ 0002:0000017c       __imp_?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z 0040517c     mfc90d:mfc90d.dll
+ 0002:00000180       __imp_?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z 00405180     mfc90d:mfc90d.dll
+ 0002:00000184       __imp_?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z 00405184     mfc90d:mfc90d.dll
+ 0002:00000188       __imp_?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z 00405188     mfc90d:mfc90d.dll
+ 0002:0000018c       __imp_?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z 0040518c     mfc90d:mfc90d.dll
+ 0002:00000190       __imp_?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z 00405190     mfc90d:mfc90d.dll
+ 0002:00000194       __imp_?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z 00405194     mfc90d:mfc90d.dll
+ 0002:00000198       __imp_?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z 00405198     mfc90d:mfc90d.dll
+ 0002:0000019c       __imp_?OnCommand@CWnd@@MAEHIJ@Z 0040519c     mfc90d:mfc90d.dll
+ 0002:000001a0       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 004051a0     mfc90d:mfc90d.dll
+ 0002:000001a4       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 004051a4     mfc90d:mfc90d.dll
+ 0002:000001a8       __imp_?BeginModalState@CWnd@@UAEXXZ 004051a8     mfc90d:mfc90d.dll
+ 0002:000001ac       __imp_?EndModalState@CWnd@@UAEXXZ 004051ac     mfc90d:mfc90d.dll
+ 0002:000001b0       __imp_?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z 004051b0     mfc90d:mfc90d.dll
+ 0002:000001b4       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 004051b4     mfc90d:mfc90d.dll
+ 0002:000001b8       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 004051b8     mfc90d:mfc90d.dll
+ 0002:000001bc       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 004051bc     mfc90d:mfc90d.dll
+ 0002:000001c0       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 004051c0     mfc90d:mfc90d.dll
+ 0002:000001c4       __imp_?PostNcDestroy@CWnd@@MAEXXZ 004051c4     mfc90d:mfc90d.dll
+ 0002:000001c8       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 004051c8     mfc90d:mfc90d.dll
+ 0002:000001cc       __imp_?CheckAutoCenter@CDialog@@UAEHXZ 004051cc     mfc90d:mfc90d.dll
+ 0002:000001d0       __imp_?IsFrameWnd@CWnd@@UBEHXZ 004051d0     mfc90d:mfc90d.dll
+ 0002:000001d4       __imp_?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z 004051d4     mfc90d:mfc90d.dll
+ 0002:000001d8       __imp_?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z 004051d8     mfc90d:mfc90d.dll
+ 0002:000001dc       __imp_?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 004051dc     mfc90d:mfc90d.dll
+ 0002:000001e0       __imp_?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ 004051e0     mfc90d:mfc90d.dll
+ 0002:000001e4       __imp_?Create@CDialog@@UAEHIPAVCWnd@@@Z 004051e4     mfc90d:mfc90d.dll
+ 0002:000001e8       __imp_?Create@CDialog@@UAEHPBDPAVCWnd@@@Z 004051e8     mfc90d:mfc90d.dll
+ 0002:000001ec       __imp_?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z 004051ec     mfc90d:mfc90d.dll
+ 0002:000001f0       __imp_?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z 004051f0     mfc90d:mfc90d.dll
+ 0002:000001f4       __imp_?OnInitDialog@CDialog@@UAEHXZ 004051f4     mfc90d:mfc90d.dll
+ 0002:000001f8       __imp_?OnSetFont@CDialog@@UAEXPAVCFont@@@Z 004051f8     mfc90d:mfc90d.dll
+ 0002:000001fc       __imp_?OnOK@CDialog@@MAEXXZ 004051fc     mfc90d:mfc90d.dll
+ 0002:00000200       __imp_?OnCancel@CDialog@@MAEXXZ 00405200     mfc90d:mfc90d.dll
+ 0002:00000204       __imp_?PreInitDialog@CDialog@@MAEXXZ 00405204     mfc90d:mfc90d.dll
+ 0002:00000208       __imp_?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 00405208     mfc90d:mfc90d.dll
+ 0002:0000020c       __imp_?LoadIconA@CWinApp@@QBEPAUHICON__@@I@Z 0040520c     mfc90d:mfc90d.dll
+ 0002:00000210       __imp_?AfxGetApp@@YGPAVCWinApp@@XZ 00405210     mfc90d:mfc90d.dll
+ 0002:00000214       __imp_?SetIcon@CWnd@@QAEPAUHICON__@@PAU2@H@Z 00405214     mfc90d:mfc90d.dll
+ 0002:00000218       __imp_??1?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 00405218     mfc90d:mfc90d.dll
+ 0002:0000021c       __imp_??B?$CSimpleStringT@D$00@ATL@@QBEPBDXZ 0040521c     mfc90d:mfc90d.dll
+ 0002:00000220       __imp_?AppendMenuA@CMenu@@QAEHIIPBD@Z 00405220     mfc90d:mfc90d.dll
+ 0002:00000224       __imp_?IsEmpty@?$CSimpleStringT@D$00@ATL@@QBE_NXZ 00405224     mfc90d:mfc90d.dll
+ 0002:00000228       __imp_?LoadStringA@?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAEHI@Z 00405228     mfc90d:mfc90d.dll
+ 0002:0000022c       __imp_??0?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@QAE@XZ 0040522c     mfc90d:mfc90d.dll
+ 0002:00000230       __imp_?GetSystemMenu@CWnd@@QBEPAVCMenu@@H@Z 00405230     mfc90d:mfc90d.dll
+ 0002:00000234       __imp_?OnSysCommand@CWnd@@IAEXIJ@Z 00405234     mfc90d:mfc90d.dll
+ 0002:00000238       __imp_?OnPaint@CDialog@@IAEXXZ 00405238     mfc90d:mfc90d.dll
+ 0002:0000023c       __imp_??1CPaintDC@@UAE@XZ  0040523c     mfc90d:mfc90d.dll
+ 0002:00000240       __imp_?DrawIcon@CDC@@QAEHHHPAUHICON__@@@Z 00405240     mfc90d:mfc90d.dll
+ 0002:00000244       __imp_?GetClientRect@CWnd@@QBEXPAUtagRECT@@@Z 00405244     mfc90d:mfc90d.dll
+ 0002:00000248       __imp_?SendMessageA@CWnd@@QBEJIIJ@Z 00405248     mfc90d:mfc90d.dll
+ 0002:0000024c       __imp_?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ 0040524c     mfc90d:mfc90d.dll
+ 0002:00000250       __imp_??0CPaintDC@@QAE@PAVCWnd@@@Z 00405250     mfc90d:mfc90d.dll
+ 0002:00000254       __imp_?IsIconic@CWnd@@QBEHXZ 00405254     mfc90d:mfc90d.dll
+ 0002:00000258       __imp_?AfxAssertFailedLine@@YGHPBDH@Z 00405258     mfc90d:mfc90d.dll
+ 0002:0000025c       __imp_?SetMenu@CWnd@@UAEHPAVCMenu@@@Z 0040525c     mfc90d:mfc90d.dll
+ 0002:00000260       __imp_?GetMenu@CWnd@@UBEPAVCMenu@@XZ 00405260     mfc90d:mfc90d.dll
+ 0002:00000264       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 00405264     mfc90d:mfc90d.dll
+ 0002:00000268       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 00405268     mfc90d:mfc90d.dll
+ 0002:0000026c       __imp_?DestroyWindow@CWnd@@UAEHXZ 0040526c     mfc90d:mfc90d.dll
+ 0002:00000270       __imp_?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 00405270     mfc90d:mfc90d.dll
+ 0002:00000274       __imp_?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z 00405274     mfc90d:mfc90d.dll
+ 0002:00000278       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 00405278     mfc90d:mfc90d.dll
+ 0002:0000027c       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 0040527c     mfc90d:mfc90d.dll
+ 0002:00000280       __imp_?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 00405280     mfc90d:mfc90d.dll
+ 0002:00000284       __imp_?OnFinalRelease@CWnd@@UAEXXZ 00405284     mfc90d:mfc90d.dll
+ 0002:00000288       __imp_?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00405288     mfc90d:mfc90d.dll
+ 0002:0000028c       __imp_?Dump@CDialog@@UBEXAAVCDumpContext@@@Z 0040528c     mfc90d:mfc90d.dll
+ 0002:00000290       __imp_?AssertValid@CDialog@@UBEXXZ 00405290     mfc90d:mfc90d.dll
+ 0002:00000294       __imp_?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ 00405294     mfc90d:mfc90d.dll
+ 0002:00000298       __imp_??0CDialog@@QAE@IPAVCWnd@@@Z 00405298     mfc90d:mfc90d.dll
+ 0002:0000029c       __imp_?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ 0040529c     mfc90d:mfc90d.dll
+ 0002:000002a0       __imp_??1CDialog@@UAE@XZ   004052a0     mfc90d:mfc90d.dll
+ 0002:000002a4       __imp_?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z 004052a4     mfc90d:mfc90d.dll
+ 0002:000002a8       __imp_?Enable3dControls@CWinApp@@IAEHXZ 004052a8     mfc90d:mfc90d.dll
+ 0002:000002ac       __imp_?DoModal@CDialog@@UAEHXZ 004052ac     mfc90d:mfc90d.dll
+ 0002:000002b0       __imp_??1CWinApp@@UAE@XZ   004052b0     mfc90d:mfc90d.dll
+ 0002:000002b4       __imp_??3CObject@@SGXPAX@Z 004052b4     mfc90d:mfc90d.dll
+ 0002:000002b8       __imp_?LoadSysPolicies@CWinApp@@UAEHXZ 004052b8     mfc90d:mfc90d.dll
+ 0002:000002bc       __imp_?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ 004052bc     mfc90d:mfc90d.dll
+ 0002:000002c0       __imp_?WinHelpInternal@CWinApp@@UAEXKI@Z 004052c0     mfc90d:mfc90d.dll
+ 0002:000002c4       __imp_?HtmlHelpA@CWinApp@@UAEXKI@Z 004052c4     mfc90d:mfc90d.dll
+ 0002:000002c8       __imp_?WinHelpA@CWinApp@@UAEXKI@Z 004052c8     mfc90d:mfc90d.dll
+ 0002:000002cc       __imp_?OnDDECommand@CWinApp@@UAEHPAD@Z 004052cc     mfc90d:mfc90d.dll
+ 0002:000002d0       __imp_?DoWaitCursor@CWinApp@@UAEXH@Z 004052d0     mfc90d:mfc90d.dll
+ 0002:000002d4       __imp_?DoMessageBox@CWinApp@@UAEHPBDII@Z 004052d4     mfc90d:mfc90d.dll
+ 0002:000002d8       __imp_?SaveAllModified@CWinApp@@UAEHXZ 004052d8     mfc90d:mfc90d.dll
+ 0002:000002dc       __imp_?InitApplication@CWinApp@@UAEHXZ 004052dc     mfc90d:mfc90d.dll
+ 0002:000002e0       __imp_?AddToRecentFileList@CWinApp@@UAEXPBD@Z 004052e0     mfc90d:mfc90d.dll
+ 0002:000002e4       __imp_?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PBD@Z 004052e4     mfc90d:mfc90d.dll
+ 0002:000002e8       __imp_?Unregister@CWinApp@@UAEHXZ 004052e8     mfc90d:mfc90d.dll
+ 0002:000002ec       __imp_?Register@CWinApp@@UAEHXZ 004052ec     mfc90d:mfc90d.dll
+ 0002:000002f0       __imp_?InitLibId@CWinApp@@UAEXXZ 004052f0     mfc90d:mfc90d.dll
+ 0002:000002f4       __imp_?Delete@CWinThread@@UAEXXZ 004052f4     mfc90d:mfc90d.dll
+ 0002:000002f8       __imp_?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ 004052f8     mfc90d:mfc90d.dll
+ 0002:000002fc       __imp_?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z 004052fc     mfc90d:mfc90d.dll
+ 0002:00000300       __imp_?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z 00405300     mfc90d:mfc90d.dll
+ 0002:00000304       __imp_?ExitInstance@CWinApp@@UAEHXZ 00405304     mfc90d:mfc90d.dll
+ 0002:00000308       __imp_?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00405308     mfc90d:mfc90d.dll
+ 0002:0000030c       __imp_?OnIdle@CWinApp@@UAEHJ@Z 0040530c     mfc90d:mfc90d.dll
+ 0002:00000310       __imp_?PumpMessage@CWinThread@@UAEHXZ 00405310     mfc90d:mfc90d.dll
+ 0002:00000314       __imp_?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z 00405314     mfc90d:mfc90d.dll
+ 0002:00000318       __imp_?Run@CWinApp@@UAEHXZ 00405318     mfc90d:mfc90d.dll
+ 0002:0000031c       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 0040531c     mfc90d:mfc90d.dll
+ 0002:00000320       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 00405320     mfc90d:mfc90d.dll
+ 0002:00000324       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 00405324     mfc90d:mfc90d.dll
+ 0002:00000328       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 00405328     mfc90d:mfc90d.dll
+ 0002:0000032c       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 0040532c     mfc90d:mfc90d.dll
+ 0002:00000330       __imp_?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 00405330     mfc90d:mfc90d.dll
+ 0002:00000334       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 00405334     mfc90d:mfc90d.dll
+ 0002:00000338       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 00405338     mfc90d:mfc90d.dll
+ 0002:0000033c       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 0040533c     mfc90d:mfc90d.dll
+ 0002:00000340       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 00405340     mfc90d:mfc90d.dll
+ 0002:00000344       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 00405344     mfc90d:mfc90d.dll
+ 0002:00000348       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 00405348     mfc90d:mfc90d.dll
+ 0002:0000034c       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 0040534c     mfc90d:mfc90d.dll
+ 0002:00000350       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 00405350     mfc90d:mfc90d.dll
+ 0002:00000354       __imp_?OnFinalRelease@CCmdTarget@@UAEXXZ 00405354     mfc90d:mfc90d.dll
+ 0002:00000358       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00405358     mfc90d:mfc90d.dll
+ 0002:0000035c       __imp_?Dump@CWinApp@@UBEXAAVCDumpContext@@@Z 0040535c     mfc90d:mfc90d.dll
+ 0002:00000360       __imp_?AssertValid@CWinApp@@UBEXXZ 00405360     mfc90d:mfc90d.dll
+ 0002:00000364       __imp_?Serialize@CObject@@UAEXAAVCArchive@@@Z 00405364     mfc90d:mfc90d.dll
+ 0002:00000368       __imp_?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 00405368     mfc90d:mfc90d.dll
+ 0002:0000036c       __imp_??0CWinApp@@QAE@PBD@Z 0040536c     mfc90d:mfc90d.dll
+ 0002:00000370       __imp_?OnHelp@CWinApp@@IAEXXZ 00405370     mfc90d:mfc90d.dll
+ 0002:00000374       __imp_?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ 00405374     mfc90d:mfc90d.dll
+ 0002:00000378       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 00405378     mfc90d:mfc90d.dll
+ 0002:0000037c       __imp_??3@YAXPAX@Z         0040537c     mfc90d:mfc90d.dll
+ 0002:00000380       __imp_?AfxWinMain@@YGHPAUHINSTANCE__@@0PADH@Z 00405380     mfc90d:mfc90d.dll
+ 0002:00000384       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 00405384     mfc90d:mfc90d.dll
+ 0002:00000388       \177mfc90d_NULL_THUNK_DATA 00405388     mfc90d:mfc90d.dll
+ 0002:0000038c       ___xc_a                    0040538c     msvcrtd:cinitexe.obj
+ 0002:000003a4       ___xc_z                    004053a4     msvcrtd:cinitexe.obj
+ 0002:000003a8       ___xi_a                    004053a8     msvcrtd:cinitexe.obj
+ 0002:000003b4       ___xi_z                    004053b4     msvcrtd:cinitexe.obj
+ 0002:0000041c       ??_7CLabAppApp@@6B@        0040541c     LabApp.obj
+ 0002:000005fc       ??_7CAboutDlg@@6B@         004055fc     LabAppDlg.obj
+ 0002:0000076c       ??_7CLabAppDlg@@6B@        0040576c     LabAppDlg.obj
+ 0002:000008d8       ??_C@_04CEJDCDCH@test?$AA@ 004058d8     LabAppDlg.obj
+ 0002:000008e0       ??_C@_0DE@EAJEAIMN@strcpyIsDeprecatedSoYouShouldUse@ 004058e0     LabAppDlg.obj
+ 0002:00000914       ??_C@_0BF@GPPHKJFN@Invalid?5DateTimeSpan?$AA@ 00405914     StdAfx.obj
+ 0002:0000092c       ??_C@_0BB@KEKMKJPM@Invalid?5DateTime?$AA@ 0040592c     StdAfx.obj
+ 0002:00000940       ?_Min@?$AtlLimits@H@ATL@@2HB 00405940     StdAfx.obj
+ 0002:00000944       ?_Max@?$AtlLimits@H@ATL@@2HB 00405944     StdAfx.obj
+ 0002:00000948       ?_Min@?$AtlLimits@I@ATL@@2IB 00405948     StdAfx.obj
+ 0002:0000094c       ?_Max@?$AtlLimits@I@ATL@@2IB 0040594c     StdAfx.obj
+ 0002:00000950       ?_Min@?$AtlLimits@J@ATL@@2JB 00405950     StdAfx.obj
+ 0002:00000954       ?_Max@?$AtlLimits@J@ATL@@2JB 00405954     StdAfx.obj
+ 0002:00000958       ?_Min@?$AtlLimits@K@ATL@@2KB 00405958     StdAfx.obj
+ 0002:0000095c       ?_Max@?$AtlLimits@K@ATL@@2KB 0040595c     StdAfx.obj
+ 0002:00000960       ?_Min@?$AtlLimits@_J@ATL@@2_JB 00405960     StdAfx.obj
+ 0002:00000968       ?_Max@?$AtlLimits@_J@ATL@@2_JB 00405968     StdAfx.obj
+ 0002:00000970       ?_Min@?$AtlLimits@_K@ATL@@2_KB 00405970     StdAfx.obj
+ 0002:00000978       ?_Max@?$AtlLimits@_K@ATL@@2_KB 00405978     StdAfx.obj
+ 0002:00000980       ?VT@?$CVarTypeInfo@D@ATL@@2GB 00405980     StdAfx.obj
+ 0002:00000984       ?pmField@?$CVarTypeInfo@D@ATL@@2QQtagVARIANT@@DQ3@ 00405984     StdAfx.obj
+ 0002:00000988       ?VT@?$CVarTypeInfo@E@ATL@@2GB 00405988     StdAfx.obj
+ 0002:0000098c       ?pmField@?$CVarTypeInfo@E@ATL@@2QQtagVARIANT@@EQ3@ 0040598c     StdAfx.obj
+ 0002:00000990       ?VT@?$CVarTypeInfo@PAD@ATL@@2GB 00405990     StdAfx.obj
+ 0002:00000994       ?pmField@?$CVarTypeInfo@PAD@ATL@@2QQtagVARIANT@@PADQ3@ 00405994     StdAfx.obj
+ 0002:00000998       ?VT@?$CVarTypeInfo@PAE@ATL@@2GB 00405998     StdAfx.obj
+ 0002:0000099c       ?pmField@?$CVarTypeInfo@PAE@ATL@@2QQtagVARIANT@@PAEQ3@ 0040599c     StdAfx.obj
+ 0002:000009a0       ?VT@?$CVarTypeInfo@F@ATL@@2GB 004059a0     StdAfx.obj
+ 0002:000009a4       ?pmField@?$CVarTypeInfo@F@ATL@@2QQtagVARIANT@@FQ3@ 004059a4     StdAfx.obj
+ 0002:000009a8       ?VT@?$CVarTypeInfo@PAF@ATL@@2GB 004059a8     StdAfx.obj
+ 0002:000009ac       ?pmField@?$CVarTypeInfo@PAF@ATL@@2QQtagVARIANT@@PAFQ3@ 004059ac     StdAfx.obj
+ 0002:000009b0       ?VT@?$CVarTypeInfo@G@ATL@@2GB 004059b0     StdAfx.obj
+ 0002:000009b4       ?pmField@?$CVarTypeInfo@G@ATL@@2QQtagVARIANT@@GQ3@ 004059b4     StdAfx.obj
+ 0002:000009b8       ?VT@?$CVarTypeInfo@PAG@ATL@@2GB 004059b8     StdAfx.obj
+ 0002:000009bc       ?pmField@?$CVarTypeInfo@PAG@ATL@@2QQtagVARIANT@@PAGQ3@ 004059bc     StdAfx.obj
+ 0002:000009c0       ?VT@?$CVarTypeInfo@H@ATL@@2GB 004059c0     StdAfx.obj
+ 0002:000009c4       ?pmField@?$CVarTypeInfo@H@ATL@@2QQtagVARIANT@@HQ3@ 004059c4     StdAfx.obj
+ 0002:000009c8       ?VT@?$CVarTypeInfo@PAH@ATL@@2GB 004059c8     StdAfx.obj
+ 0002:000009cc       ?pmField@?$CVarTypeInfo@PAH@ATL@@2QQtagVARIANT@@PAHQ3@ 004059cc     StdAfx.obj
+ 0002:000009d0       ?VT@?$CVarTypeInfo@I@ATL@@2GB 004059d0     StdAfx.obj
+ 0002:000009d4       ?pmField@?$CVarTypeInfo@I@ATL@@2QQtagVARIANT@@IQ3@ 004059d4     StdAfx.obj
+ 0002:000009d8       ?VT@?$CVarTypeInfo@PAI@ATL@@2GB 004059d8     StdAfx.obj
+ 0002:000009dc       ?pmField@?$CVarTypeInfo@PAI@ATL@@2QQtagVARIANT@@PAIQ3@ 004059dc     StdAfx.obj
+ 0002:000009e0       ?VT@?$CVarTypeInfo@J@ATL@@2GB 004059e0     StdAfx.obj
+ 0002:000009e4       ?pmField@?$CVarTypeInfo@J@ATL@@2QQtagVARIANT@@JQ3@ 004059e4     StdAfx.obj
+ 0002:000009e8       ?VT@?$CVarTypeInfo@PAJ@ATL@@2GB 004059e8     StdAfx.obj
+ 0002:000009ec       ?pmField@?$CVarTypeInfo@PAJ@ATL@@2QQtagVARIANT@@PAJQ3@ 004059ec     StdAfx.obj
+ 0002:000009f0       ?VT@?$CVarTypeInfo@K@ATL@@2GB 004059f0     StdAfx.obj
+ 0002:000009f4       ?pmField@?$CVarTypeInfo@K@ATL@@2QQtagVARIANT@@KQ3@ 004059f4     StdAfx.obj
+ 0002:000009f8       ?VT@?$CVarTypeInfo@PAK@ATL@@2GB 004059f8     StdAfx.obj
+ 0002:000009fc       ?pmField@?$CVarTypeInfo@PAK@ATL@@2QQtagVARIANT@@PAKQ3@ 004059fc     StdAfx.obj
+ 0002:00000a00       ?VT@?$CVarTypeInfo@_J@ATL@@2GB 00405a00     StdAfx.obj
+ 0002:00000a04       ?pmField@?$CVarTypeInfo@_J@ATL@@2QQtagVARIANT@@_JQ3@ 00405a04     StdAfx.obj
+ 0002:00000a08       ?VT@?$CVarTypeInfo@PA_J@ATL@@2GB 00405a08     StdAfx.obj
+ 0002:00000a0c       ?pmField@?$CVarTypeInfo@PA_J@ATL@@2QQtagVARIANT@@PA_JQ3@ 00405a0c     StdAfx.obj
+ 0002:00000a10       ?VT@?$CVarTypeInfo@_K@ATL@@2GB 00405a10     StdAfx.obj
+ 0002:00000a14       ?pmField@?$CVarTypeInfo@_K@ATL@@2QQtagVARIANT@@_KQ3@ 00405a14     StdAfx.obj
+ 0002:00000a18       ?VT@?$CVarTypeInfo@PA_K@ATL@@2GB 00405a18     StdAfx.obj
+ 0002:00000a1c       ?pmField@?$CVarTypeInfo@PA_K@ATL@@2QQtagVARIANT@@PA_KQ3@ 00405a1c     StdAfx.obj
+ 0002:00000a20       ?VT@?$CVarTypeInfo@M@ATL@@2GB 00405a20     StdAfx.obj
+ 0002:00000a24       ?pmField@?$CVarTypeInfo@M@ATL@@2QQtagVARIANT@@MQ3@ 00405a24     StdAfx.obj
+ 0002:00000a28       ?VT@?$CVarTypeInfo@PAM@ATL@@2GB 00405a28     StdAfx.obj
+ 0002:00000a2c       ?pmField@?$CVarTypeInfo@PAM@ATL@@2QQtagVARIANT@@PAMQ3@ 00405a2c     StdAfx.obj
+ 0002:00000a30       ?VT@?$CVarTypeInfo@N@ATL@@2GB 00405a30     StdAfx.obj
+ 0002:00000a34       ?pmField@?$CVarTypeInfo@N@ATL@@2QQtagVARIANT@@NQ3@ 00405a34     StdAfx.obj
+ 0002:00000a38       ?VT@?$CVarTypeInfo@PAN@ATL@@2GB 00405a38     StdAfx.obj
+ 0002:00000a3c       ?pmField@?$CVarTypeInfo@PAN@ATL@@2QQtagVARIANT@@PANQ3@ 00405a3c     StdAfx.obj
+ 0002:00000a40       ?VT@?$CVarTypeInfo@UtagVARIANT@@@ATL@@2GB 00405a40     StdAfx.obj
+ 0002:00000a44       ?VT@?$CVarTypeInfo@PA_W@ATL@@2GB 00405a44     StdAfx.obj
+ 0002:00000a48       ?pmField@?$CVarTypeInfo@PA_W@ATL@@2QQtagVARIANT@@PA_WQ3@ 00405a48     StdAfx.obj
+ 0002:00000a4c       ?VT@?$CVarTypeInfo@PAPA_W@ATL@@2GB 00405a4c     StdAfx.obj
+ 0002:00000a50       ?pmField@?$CVarTypeInfo@PAPA_W@ATL@@2QQtagVARIANT@@PAPA_WQ3@ 00405a50     StdAfx.obj
+ 0002:00000a54       ?VT@?$CVarTypeInfo@PAUIUnknown@@@ATL@@2GB 00405a54     StdAfx.obj
+ 0002:00000a58       ?pmField@?$CVarTypeInfo@PAUIUnknown@@@ATL@@2QQtagVARIANT@@PAUIUnknown@@Q3@ 00405a58     StdAfx.obj
+ 0002:00000a5c       ?VT@?$CVarTypeInfo@PAPAUIUnknown@@@ATL@@2GB 00405a5c     StdAfx.obj
+ 0002:00000a60       ?pmField@?$CVarTypeInfo@PAPAUIUnknown@@@ATL@@2QQtagVARIANT@@PAPAUIUnknown@@Q3@ 00405a60     StdAfx.obj
+ 0002:00000a64       ?VT@?$CVarTypeInfo@PAUIDispatch@@@ATL@@2GB 00405a64     StdAfx.obj
+ 0002:00000a68       ?pmField@?$CVarTypeInfo@PAUIDispatch@@@ATL@@2QQtagVARIANT@@PAUIDispatch@@Q3@ 00405a68     StdAfx.obj
+ 0002:00000a6c       ?VT@?$CVarTypeInfo@PAPAUIDispatch@@@ATL@@2GB 00405a6c     StdAfx.obj
+ 0002:00000a70       ?pmField@?$CVarTypeInfo@PAPAUIDispatch@@@ATL@@2QQtagVARIANT@@PAPAUIDispatch@@Q3@ 00405a70     StdAfx.obj
+ 0002:00000a74       ?VT@?$CVarTypeInfo@TtagCY@@@ATL@@2GB 00405a74     StdAfx.obj
+ 0002:00000a78       ?pmField@?$CVarTypeInfo@TtagCY@@@ATL@@2QQtagVARIANT@@TtagCY@@Q3@ 00405a78     StdAfx.obj
+ 0002:00000a7c       ?VT@?$CVarTypeInfo@PATtagCY@@@ATL@@2GB 00405a7c     StdAfx.obj
+ 0002:00000a80       ?pmField@?$CVarTypeInfo@PATtagCY@@@ATL@@2QQtagVARIANT@@PATtagCY@@Q3@ 00405a80     StdAfx.obj
+ 0002:00000a84       ?c_bIsMFCDLLTraits@?$_MFCDLLTraitsCheck@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@_CSTRING_IMPL_@ATL@@2_NB 00405a84     StdAfx.obj
+ 0002:00000a85       ?c_bIsMFCDLLTraits@?$_MFCDLLTraitsCheck@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@_CSTRING_IMPL_@ATL@@2_NB 00405a85     StdAfx.obj
+ 0002:00000a88       ?generic@CArchiveException@@2HB 00405a88     StdAfx.obj
+ 0002:00000a8c       ?generic@CFileException@@2HB 00405a8c     StdAfx.obj
+ 0002:00000a90       ?Millisecond@CFileTime@ATL@@2_KB 00405a90     StdAfx.obj
+ 0002:00000a98       ?Second@CFileTime@ATL@@2_KB 00405a98     StdAfx.obj
+ 0002:00000aa0       ?Minute@CFileTime@ATL@@2_KB 00405aa0     StdAfx.obj
+ 0002:00000aa8       ?Hour@CFileTime@ATL@@2_KB  00405aa8     StdAfx.obj
+ 0002:00000ab0       ?Day@CFileTime@ATL@@2_KB   00405ab0     StdAfx.obj
+ 0002:00000ab8       ?Week@CFileTime@ATL@@2_KB  00405ab8     StdAfx.obj
+ 0002:00000ac0       ?szInvalidDateTime@ATL@@3QBDB 00405ac0     StdAfx.obj
+ 0002:00000ac4       ?szInvalidDateTimeSpan@ATL@@3QBDB 00405ac4     StdAfx.obj
+ 0002:00000ac8       ?CLSID_WinFormsControl@@3U_GUID@@B 00405ac8     StdAfx.obj
+ 0002:00000adc       ??_7Thank_you@Define_the_symbol__ATL_MIXED@@6B@ 00405adc     StdAfx.obj
+ 0002:00000ae0       ??_C@_07KJLOKDKB@TypeLib?$AA@ 00405ae0     mfcs90d:nolib.obj
+ 0002:00000ae8       ??_C@_08KEKAJNJI@Software?$AA@ 00405ae8     mfcs90d:nolib.obj
+ 0002:00000af4       ??_C@_06FDHFNJBJ@SYSTEM?$AA@ 00405af4     mfcs90d:nolib.obj
+ 0002:00000afc       ??_C@_08LOPHEHKG@SECURITY?$AA@ 00405afc     mfcs90d:nolib.obj
+ 0002:00000b08       ??_C@_03DDIMFGBA@SAM?$AA@  00405b08     mfcs90d:nolib.obj
+ 0002:00000b0c       ??_C@_04IHBFOLAC@Mime?$AA@ 00405b0c     mfcs90d:nolib.obj
+ 0002:00000b14       ??_C@_08PPIOJEA@Hardware?$AA@ 00405b14     mfcs90d:nolib.obj
+ 0002:00000b20       ??_C@_09JKPGEJCH@Interface?$AA@ 00405b20     mfcs90d:nolib.obj
+ 0002:00000b2c       ??_C@_08PICKODJL@FileType?$AA@ 00405b2c     mfcs90d:nolib.obj
+ 0002:00000b38       ??_C@_0BF@HDDNNDFH@Component?5Categories?$AA@ 00405b38     mfcs90d:nolib.obj
+ 0002:00000b50       ??_C@_05GIBEAPNE@CLSID?$AA@ 00405b50     mfcs90d:nolib.obj
+ 0002:00000b58       ??_C@_05PDIKPLII@AppID?$AA@ 00405b58     mfcs90d:nolib.obj
+ 0002:00000b60       ??_C@_06JBKGCNBB@Delete?$AA@ 00405b60     mfcs90d:nolib.obj
+ 0002:00000b68       ??_C@_08KAAPDIAN@NoRemove?$AA@ 00405b68     mfcs90d:nolib.obj
+ 0002:00000b74       ??_C@_0M@DBGDLGLL@ForceRemove?$AA@ 00405b74     mfcs90d:nolib.obj
+ 0002:00000b80       ??_C@_03LAIAPFCB@Val?$AA@  00405b80     mfcs90d:nolib.obj
+ 0002:00000b84       ??_C@_01HMGJMAIH@B?$AA@    00405b84     mfcs90d:nolib.obj
+ 0002:00000b88       ??_C@_01CKDDGHAB@D?$AA@    00405b88     mfcs90d:nolib.obj
+ 0002:00000b8c       ??_C@_01PLPBNMEI@M?$AA@    00405b8c     mfcs90d:nolib.obj
+ 0002:00000b90       ??_C@_01CPLAODJH@S?$AA@    00405b90     mfcs90d:nolib.obj
+ 0002:00000b94       _LIBID_ATLLib              00405b94     mfcs90d:nolib.obj
+ 0002:00000ba4       _CLSID_Registrar           00405ba4     mfcs90d:nolib.obj
+ 0002:00000bb4       _IID_IRegistrar            00405bb4     mfcs90d:nolib.obj
+ 0002:00000bc4       _IID_IAxWinHostWindow      00405bc4     mfcs90d:nolib.obj
+ 0002:00000bd4       _IID_IAxWinAmbientDispatch 00405bd4     mfcs90d:nolib.obj
+ 0002:00000be4       _IID_IInternalConnection   00405be4     mfcs90d:nolib.obj
+ 0002:00000bf4       _IID_IDocHostUIHandlerDispatch 00405bf4     mfcs90d:nolib.obj
+ 0002:00000c04       _IID_IAxWinHostWindowLic   00405c04     mfcs90d:nolib.obj
+ 0002:00000c14       _IID_IAxWinAmbientDispatchEx 00405c14     mfcs90d:nolib.obj
+ 0002:00000c44       ?MAX_VALUE@CRegParser@ATL@@1HB 00405c44     mfcs90d:nolib.obj
+ 0002:00000c48       ?MAX_TYPE@CRegParser@ATL@@1HB 00405c48     mfcs90d:nolib.obj
+ 0002:00000c4c       ?rgszNeverDelete@CRegParser@ATL@@1QBQBDB 00405c4c     mfcs90d:nolib.obj
+ 0002:00000c7c       ?cbNeverDelete@CRegParser@ATL@@1HB 00405c7c     mfcs90d:nolib.obj
+ 0002:00000ca4       ??_7type_info@@6B@         00405ca4     msvcrtd:ti_inst.obj
+ 0002:00000ca8       ??_C@_1GA@EHAKPACL@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ 00405ca8     msvcrtd:crtexew.obj
+ 0002:00000d08       ??_C@_1FA@DALEHHGL@?$AA_?$AA_?$AAn?$AAa?$AAt?$AAi?$AAv?$AAe?$AA_?$AAs?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA_?$AAs?$AAt?$AAa?$AAt?$AAe?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA_?$AA_?$AAi?$AAn?$AAi?$AAt@ 00405d08     msvcrtd:crtexew.obj
+ 0002:00000d60       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 00405d60     msvcrtd:unhandld.obj
+ 0002:00000d64       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 00405d64     msvcrtd:unhandld.obj
+ 0002:00000d68       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 00405d68     msvcrtd:unhandld.obj
+ 0002:00000d6c       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 00405d6c     msvcrtd:unhandld.obj
+ 0002:00000d70       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 00405d70     msvcrtd:unhandld.obj
+ 0002:00000d78       ??_C@_1GE@KOCFNGPB@?$AA_?$AAc?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAf?$AAp?$AA_?$AAs?$AA?$CI?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?0?$AA?5?$AA0?$AAx?$AA0?$AA0?$AA0?$AA1@ 00405d78     msvcrtd:fp8.obj
+ 0002:00000ddc       ??_C@_1CK@JMKHCBEI@?$AA_?$AAs?$AAe?$AAt?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAp?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 00405ddc     msvcrtd:fp8.obj
+ 0002:00000e08       ??_C@_1GG@PHGJJHBC@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@ 00405e08     msvcrtd:fp8.obj
+ 0002:00000e90       ??_C@_0DH@EMOHNEGB@f?3?2dd?2vctools?2vc7libs?2ship?2atlmf@ 00405e90     mfcs90d:appmodul.obj
+ 0002:00000ec8       __load_config_used         00405ec8     msvcrtd:loadcfg.obj
+ 0002:00000f64       ??_R4CLabAppApp@@6B@       00405f64     LabApp.obj
+ 0002:00000f78       ??_R3CLabAppApp@@8         00405f78     LabApp.obj
+ 0002:00000f88       ??_R2CLabAppApp@@8         00405f88     LabApp.obj
+ 0002:00000fa0       ??_R1A@?0A@EA@CLabAppApp@@8 00405fa0     LabApp.obj
+ 0002:00000fbc       ??_R1A@?0A@EA@CWinApp@@8   00405fbc     LabApp.obj
+ 0002:00000fd8       ??_R3CWinApp@@8            00405fd8     LabApp.obj
+ 0002:00000fe8       ??_R2CWinApp@@8            00405fe8     LabApp.obj
+ 0002:00000ffc       ??_R1A@?0A@EA@CWinThread@@8 00405ffc     LabApp.obj
+ 0002:00001018       ??_R3CWinThread@@8         00406018     LabApp.obj
+ 0002:00001028       ??_R2CWinThread@@8         00406028     LabApp.obj
+ 0002:00001038       ??_R1A@?0A@EA@CCmdTarget@@8 00406038     LabApp.obj
+ 0002:00001054       ??_R3CCmdTarget@@8         00406054     LabApp.obj
+ 0002:00001064       ??_R2CCmdTarget@@8         00406064     LabApp.obj
+ 0002:00001070       ??_R1A@?0A@EA@CObject@@8   00406070     LabApp.obj
+ 0002:0000108c       ??_R3CObject@@8            0040608c     LabApp.obj
+ 0002:0000109c       ??_R2CObject@@8            0040609c     LabApp.obj
+ 0002:000010a4       ??_R4CAboutDlg@@6B@        004060a4     LabAppDlg.obj
+ 0002:000010b8       ??_R3CAboutDlg@@8          004060b8     LabAppDlg.obj
+ 0002:000010c8       ??_R2CAboutDlg@@8          004060c8     LabAppDlg.obj
+ 0002:000010e0       ??_R1A@?0A@EA@CAboutDlg@@8 004060e0     LabAppDlg.obj
+ 0002:000010fc       ??_R1A@?0A@EA@CDialog@@8   004060fc     LabAppDlg.obj
+ 0002:00001118       ??_R3CDialog@@8            00406118     LabAppDlg.obj
+ 0002:00001128       ??_R2CDialog@@8            00406128     LabAppDlg.obj
+ 0002:0000113c       ??_R1A@?0A@EA@CWnd@@8      0040613c     LabAppDlg.obj
+ 0002:00001158       ??_R3CWnd@@8               00406158     LabAppDlg.obj
+ 0002:00001168       ??_R2CWnd@@8               00406168     LabAppDlg.obj
+ 0002:00001178       ??_R4CLabAppDlg@@6B@       00406178     LabAppDlg.obj
+ 0002:0000118c       ??_R3CLabAppDlg@@8         0040618c     LabAppDlg.obj
+ 0002:0000119c       ??_R2CLabAppDlg@@8         0040619c     LabAppDlg.obj
+ 0002:000011b4       ??_R1A@?0A@EA@CLabAppDlg@@8 004061b4     LabAppDlg.obj
+ 0002:000011d0       ??_R4Thank_you@Define_the_symbol__ATL_MIXED@@6B@ 004061d0     StdAfx.obj
+ 0002:000011e4       ??_R3Thank_you@Define_the_symbol__ATL_MIXED@@8 004061e4     StdAfx.obj
+ 0002:000011f4       ??_R2Thank_you@Define_the_symbol__ATL_MIXED@@8 004061f4     StdAfx.obj
+ 0002:000011fc       ??_R1A@?0A@EA@Thank_you@Define_the_symbol__ATL_MIXED@@8 004061fc     StdAfx.obj
+ 0002:00001218       ??_R4type_info@@6B@        00406218     msvcrtd:ti_inst.obj
+ 0002:0000122c       ??_R3type_info@@8          0040622c     msvcrtd:ti_inst.obj
+ 0002:0000123c       ??_R2type_info@@8          0040623c     msvcrtd:ti_inst.obj
+ 0002:00001244       ??_R1A@?0A@EA@type_info@@8 00406244     msvcrtd:ti_inst.obj
+ 0002:00001260       ___safe_se_handler_table   00406260     <linker-defined>
+ 0002:00001278       ___rtc_iaa                 00406278     msvcrtd:_initsect_.obj
+ 0002:0000127c       ___rtc_izz                 0040627c     msvcrtd:_initsect_.obj
+ 0002:00001280       ___rtc_taa                 00406280     msvcrtd:_initsect_.obj
+ 0002:00001284       ___rtc_tzz                 00406284     msvcrtd:_initsect_.obj
+ 0002:0000140c       ___pobjMapEntryFirst       0040640c     mfcs90d:nolib.obj
+ 0002:00001410       ___pobjMapEntryLast        00406410     mfcs90d:nolib.obj
+ 0002:00001414       __IMPORT_DESCRIPTOR_mfc90d 00406414     mfc90d:mfc90d.dll
+ 0002:00001428       __IMPORT_DESCRIPTOR_MSVCR90D 00406428     msvcrtd:MSVCR90D.dll
+ 0002:0000143c       __IMPORT_DESCRIPTOR_KERNEL32 0040643c     kernel32:KERNEL32.dll
+ 0002:00001450       __IMPORT_DESCRIPTOR_USER32 00406450     user32:USER32.dll
+ 0002:00001464       __IMPORT_DESCRIPTOR_OLEAUT32 00406464     oleaut32:OLEAUT32.dll
+ 0002:00001478       __NULL_IMPORT_DESCRIPTOR   00406478     mfc90d:mfc90d.dll
+ 0003:00000034       ??_R0?AVCLabAppApp@@@8     00407034     LabApp.obj
+ 0003:00000050       ??_R0?AVCWinApp@@@8        00407050     LabApp.obj
+ 0003:00000068       ??_R0?AVCWinThread@@@8     00407068     LabApp.obj
+ 0003:00000084       ??_R0?AVCCmdTarget@@@8     00407084     LabApp.obj
+ 0003:000000a0       ??_R0?AVCObject@@@8        004070a0     LabApp.obj
+ 0003:000000f0       ??_R0?AVCAboutDlg@@@8      004070f0     LabAppDlg.obj
+ 0003:00000108       ??_R0?AVCDialog@@@8        00407108     LabAppDlg.obj
+ 0003:00000120       ??_R0?AVCWnd@@@8           00407120     LabAppDlg.obj
+ 0003:00000134       ??_R0?AVCLabAppDlg@@@8     00407134     LabAppDlg.obj
+ 0003:00000150       ?__LINE__Var@?1??OnThreadhangBtn@CLabAppDlg@@IAEXXZ@4JA 00407150     LabAppDlg.obj
+ 0003:00000154       __pIncludeInitManaged      00407154     StdAfx.obj
+ 0003:00000158       ??_R0?AUThank_you@Define_the_symbol__ATL_MIXED@@@8 00407158     StdAfx.obj
+ 0003:00000190       ??_R0?AVtype_info@@@8      00407190     msvcrtd:ti_inst.obj
+ 0003:000001a8       ___security_cookie         004071a8     msvcrtd:gs_cookie.obj
+ 0003:000001ac       ___security_cookie_complement 004071ac     msvcrtd:gs_cookie.obj
+ 0003:000001b0       ___globallocalestatus      004071b0     msvcrtd:xthdloc.obj
+ 0003:000001b4       ___defaultmatherr          004071b4     msvcrtd:merr.obj
+ 0003:000001b8       ___native_dllmain_reason   004071b8     msvcrtd:natstart.obj
+ 0003:000001bc       ___native_vcclrit_reason   004071bc     msvcrtd:natstart.obj
+ 0003:000001c0       ?theApp@@3VCLabAppApp@@A   004071c0     LabApp.obj
+ 0003:00000264       ?s_pfnPrevHook@CNoUIAssertHook@ATL@@0P6AHHPADPAH@ZA 00407264     StdAfx.obj
+ 0003:00000268       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 00407268     StdAfx.obj
+ 0003:0000026c       ?s_pLog@CFixedStringMgr@ATL@@2PAVIFixedStringLog@2@A 0040726c     StdAfx.obj
+ 0003:00000270       ?clash@Define_the_symbol__ATL_MIXED@@3UThank_you@1@A 00407270     StdAfx.obj
+ 0003:00000274       ?clash@Inconsistent_definition_of_symbol__ATL_MIXED@@3U_Please_define_it_the_same_throughout_your_project@1@A 00407274     StdAfx.obj
+ 0003:00000278       ?_pAtlAutoThreadModule@ATL@@3PAUIAtlAutoThreadModule@1@A 00407278     mfcs90d:nolib.obj
+ 0003:0000027c       __afxForceEXCLUDE          0040727c     mfcs90d:nolib.obj
+ 0003:00000280       ?_pPerfRegFunc@ATL@@3P6AJPAUHINSTANCE__@@@ZA 00407280     mfcs90d:nolib.obj
+ 0003:00000284       ?_pPerfUnRegFunc@ATL@@3P6AJXZA 00407284     mfcs90d:nolib.obj
+ 0003:00000288       ?_AtlRegisterPerUser@ATL@@3_NA 00407288     mfcs90d:nolib.obj
+ 0003:0000028c       ?_pAtlModule@ATL@@3PAVCAtlModule@1@A 0040728c     mfcs90d:nolib.obj
+ 0003:00000290       ?m_libid@CAtlModule@ATL@@2U_GUID@@A 00407290     mfcs90d:nolib.obj
+ 0003:000002a0       ?_pModule@ATL@@3PAVCComModule@1@A 004072a0     mfcs90d:nolib.obj
+ 0003:000002a4       ?ATL_CREATE_OBJECT@CComApartment@ATL@@2IA 004072a4     mfcs90d:nolib.obj
+ 0003:000002a8       ?WM_DESTROYMODELESS@CDHtmlDialog@@1IA 004072a8     mfcs90d:nolib.obj
+ 0003:000002ac       __afxForceSTDAFX           004072ac     mfcs90d:stdafx.obj
+ 0003:000005f4       __commode                  004075f4     msvcrtd:xncommod.obj
+ 0003:000005f8       __fmode                    004075f8     msvcrtd:xtxtmode.obj
+ 0003:000005fc       __dowildcard               004075fc     msvcrtd:wildcard.obj
+ 0003:00000600       __newmode                  00407600     msvcrtd:_newmode.obj
+ 0003:00000604       ?_afxInitAppState@@3DA     00407604     mfcs90d:appmodul.obj
+ 0003:00000608       ___native_startup_state    00407608     <common>
+ 0003:0000060c       ___native_startup_lock     0040760c     <common>
+ 0003:00000610       __adjust_fdiv              00407610     <common>
+ 0003:00000614       ___dyn_tls_init_callback   00407614     <common>
+ 0003:00000618       ___onexitend               00407618     <common>
+ 0003:0000061c       ___onexitbegin             0040761c     <common>
+
+ entry point at        0001:000010c0
+
+ Static symbols
+
+ 0001:00000900       _time                      00401900 f   LabAppDlg.obj
+ 0001:00000fc0       _pre_c_init                00401fc0 f   msvcrtd:crtexew.obj
+ 0001:00001060       _pre_cpp_init              00402060 f   msvcrtd:crtexew.obj
+ 0001:000010e0       ___tmainCRTStartup         004020e0 f   msvcrtd:crtexew.obj
+ 0001:00001420       _check_managed_app         00402420 f   msvcrtd:crtexew.obj
+ 0001:00001620       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 00402620 f   msvcrtd:ehvecdtr.obj
+ 0001:000032e0       __unwindfunclet$?InitInstance@CLabAppApp@@UAEHXZ$0 004042e0 f   LabApp.obj
+ 0001:000032eb       __ehhandler$?InitInstance@CLabAppApp@@UAEHXZ 004042eb f   LabApp.obj
+ 0001:00003310       __unwindfunclet$??0CLabAppDlg@@QAE@PAVCWnd@@@Z$0 00404310 f   LabAppDlg.obj
+ 0001:00003318       __ehhandler$??0CLabAppDlg@@QAE@PAVCWnd@@@Z 00404318 f   LabAppDlg.obj
+ 0001:00003340       __unwindfunclet$?OnInitDialog@CLabAppDlg@@MAEHXZ$0 00404340 f   LabAppDlg.obj
+ 0001:00003349       __ehhandler$?OnInitDialog@CLabAppDlg@@MAEHXZ 00404349 f   LabAppDlg.obj
+ 0001:00003370       __unwindfunclet$?OnSysCommand@CLabAppDlg@@IAEXIJ@Z$0 00404370 f   LabAppDlg.obj
+ 0001:0000337b       __ehhandler$?OnSysCommand@CLabAppDlg@@IAEXIJ@Z 0040437b f   LabAppDlg.obj
+ 0001:000033a0       __unwindfunclet$?OnPaint@CLabAppDlg@@IAEXXZ$0 004043a0 f   LabAppDlg.obj
+ 0001:000033a8       __ehhandler$?OnPaint@CLabAppDlg@@IAEXXZ 004043a8 f   LabAppDlg.obj
+ 0001:000033d0       ??__EtheApp@@YAXXZ         004043d0 f   LabApp.obj
+ 0001:00003400       ??__Eclash@Inconsistent_definition_of_symbol__ATL_MIXED@@YAXXZ 00404400 f   StdAfx.obj
+ 0001:00003420       ??__Eclash@Define_the_symbol__ATL_MIXED@@YAXXZ 00404420 f   StdAfx.obj
+ 0001:00003440       ??__Eclash@Inconsistent_definition_of_symbol__ATL_MIXED@@YAXXZ 00404440 f   mfcs90d:nolib.obj
+ 0001:00003450       ??__Eclash@Define_the_symbol__ATL_MIXED@@YAXXZ 00404450 f   mfcs90d:nolib.obj
+ 0001:00003470       ??__Eclash@Inconsistent_definition_of_symbol__ATL_MIXED@@YAXXZ 00404470 f   mfcs90d:stdafx.obj
+ 0001:00003480       ??__Eclash@Define_the_symbol__ATL_MIXED@@YAXXZ 00404480 f   mfcs90d:stdafx.obj
+ 0001:000034a0       ??__E_afxInitAppState@@YAXXZ 004044a0 f   mfcs90d:appmodul.obj
+ 0001:000034c0       ??__Eclash@Inconsistent_definition_of_symbol__ATL_MIXED@@YAXXZ 004044c0 f   mfcs90d:appmodul.obj
+ 0001:000034d0       ??__Eclash@Define_the_symbol__ATL_MIXED@@YAXXZ 004044d0 f   mfcs90d:appmodul.obj
+ 0001:000034f0       ??__FtheApp@@YAXXZ         004044f0 f   LabApp.obj
